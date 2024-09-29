@@ -1,0 +1,183 @@
+CRITICAL - 2023-09-30 01:58:31 --> Undefined variable $Tenderid
+in APPPATH\Views\sys\invitation\add.php on line 33.
+ 1 APPPATH\Views\sys\invitation\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tenderid', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(54): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 01:58:31 --> Undefined variable $Tenderid
+in APPPATH\Views\sys\invitation\add.php on line 33.
+ 1 APPPATH\Views\sys\invitation\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tenderid', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(54): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:11:05 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\invitation\add.php on line 31.
+ 1 APPPATH\Views\sys\invitation\add.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(54): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:11:27 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\invitation\add.php on line 31.
+ 1 APPPATH\Views\sys\invitation\add.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(54): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:11:28 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\invitation\add.php on line 31.
+ 1 APPPATH\Views\sys\invitation\add.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(54): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:15:06 --> Call to a member function findall() on null
+in APPPATH\Controllers\Invitation.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:32:15 --> Undefined variable $PNumber
+in APPPATH\Views\sys\invitation\add.php on line 32.
+ 1 APPPATH\Views\sys\invitation\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PNumber', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(57): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:32:15 --> Undefined variable $PNumber
+in APPPATH\Views\sys\invitation\add.php on line 32.
+ 1 APPPATH\Views\sys\invitation\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PNumber', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(57): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:34:36 --> Undefined array key "PNumber"
+in APPPATH\Views\sys\invitation\add.php on line 32.
+ 1 APPPATH\Views\sys\invitation\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(57): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:34:37 --> Undefined array key "PNumber"
+in APPPATH\Views\sys\invitation\add.php on line 32.
+ 1 APPPATH\Views\sys\invitation\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(57): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:34:37 --> Undefined array key "PNumber"
+in APPPATH\Views\sys\invitation\add.php on line 32.
+ 1 APPPATH\Views\sys\invitation\add.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(57): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 02:56:08 --> Cannot redeclare App\Controllers\Web::index()
+in APPPATH\Controllers\Web.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 03:52:23 --> "valied_email" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valied_email')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'sandamalipathirana0ail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(141): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Web.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->make_register()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 03:54:26 --> Unmatched '}'
+in APPPATH\Controllers\Web.php on line 89.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/register', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/register')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/register')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 03:54:32 --> Unmatched '}'
+in APPPATH\Controllers\Web.php on line 89.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/register', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/register')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/register')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 04:00:58 --> Unclosed '{' on line 7
+in APPPATH\Controllers\Web.php on line 91.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/register', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/register')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/register')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 04:01:36 --> Unclosed '{' on line 7
+in APPPATH\Controllers\Web.php on line 91.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/register', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/register')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/register')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 04:01:59 --> Unclosed '{' on line 7
+in APPPATH\Controllers\Web.php on line 42.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/register', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/register')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/register')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 04:02:29 --> Unclosed '{' on line 7
+in APPPATH\Controllers\Web.php on line 42.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/register', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/register')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/register')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 04:25:32 --> Class "App\Controllers\CustomerModel" not found
+in APPPATH\Controllers\Web.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->make_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

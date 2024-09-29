@@ -1,0 +1,47 @@
+CRITICAL - 2024-05-06 16:25:21 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\BIDAnnounce.php(74): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-06 17:05:45 --> "validateBSecurity[PMethod,BSecurity" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateBSecurity[PMethod,BSecurity')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('BSecurity', 'BSecurity', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(141): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Invitation.php(50): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-06 17:17:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Invitation.php on line 140.
+ 1 APPPATH\Controllers\Invitation.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Invitation.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->getDescription()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-06 17:17:50 --> Undefined array key 0
+in APPPATH\Controllers\Invitation.php on line 150.
+ 1 APPPATH\Controllers\Invitation.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Invitation.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->gettotalcost()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-06 17:17:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Invitation.php on line 157.
+ 1 APPPATH\Controllers\Invitation.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Invitation.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->getLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-06 17:17:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Invitation.php on line 164.
+ 1 APPPATH\Controllers\Invitation.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Invitation.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->getPMethod()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

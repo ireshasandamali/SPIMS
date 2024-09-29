@@ -1,0 +1,482 @@
+CRITICAL - 2023-11-11 05:11:53 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 05:51:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 05:52:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:21:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:25:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:30:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:33:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:43:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:54:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:54:41 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 319.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:54:46 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 319.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:57:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:59:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 06:59:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:03:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:03:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:06:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:07:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:09:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:10:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:11:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:15:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:15:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:16:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\addItem.php on line 25.
+ 1 APPPATH\Views\sys\tender\addItem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(132): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:46:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\addItem.php on line 25.
+ 1 APPPATH\Views\sys\tender\addItem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(132): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:46:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(313): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:46:38 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:48:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(312): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:50:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(309): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 07:50:25 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 314.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 15:55:56 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 15:56:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(310): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 15:57:55 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 315.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 15:58:02 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 315.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:18:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(310): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:20:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(310): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:20:16 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 315.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:24:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:24:52 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 319.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:25:58 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\Tender.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:26:53 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\Tender.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:26:58 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\Tender.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:27:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:27:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(314): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:27:14 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 319.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:30:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(316): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:30:12 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 321.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:34:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(313): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:34:38 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:35:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(313): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-11 16:35:26 --> Undefined constant "App\Controllers\yes"
+in APPPATH\Controllers\Tender.php on line 318.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->LoadQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

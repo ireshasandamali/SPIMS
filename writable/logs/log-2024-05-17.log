@@ -1,0 +1,1057 @@
+CRITICAL - 2024-05-17 02:25:02 --> Undefined array key "Status"
+in APPPATH\Views\sys\content_ProcurementPlanningOfficer.php on line 271.
+ 1 APPPATH\Views\sys\content_ProcurementPlanningOfficer.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementPlanningOfficer.php', 271)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementPlanningOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementplanningofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(84): view('sys/content_procurementplanningofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 02:28:11 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\division.php(78): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\division->viewCamp()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\division))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 03:10:46 --> Undefined array key "tCost"
+in APPPATH\Views\sys\vote\voteLedger.php on line 94.
+ 1 APPPATH\Views\sys\vote\voteLedger.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tCost"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php', 94)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/voteLedger', [], true)
+ 5 APPPATH\Controllers\Vote.php(166): view('sys/vote/voteLedger', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->voteLedger()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 03:45:00 --> Undefined array key "tCost"
+in APPPATH\Views\sys\vote\voteLedger.php on line 102.
+ 1 APPPATH\Views\sys\vote\voteLedger.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tCost"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/voteLedger', [], true)
+ 5 APPPATH\Controllers\Vote.php(177): view('sys/vote/voteLedger', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->voteLedger()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 03:46:26 --> Undefined array key "tCost"
+in APPPATH\Views\sys\vote\voteLedger.php on line 102.
+ 1 APPPATH\Views\sys\vote\voteLedger.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tCost"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/voteLedger', [], true)
+ 5 APPPATH\Controllers\Vote.php(176): view('sys/vote/voteLedger', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->voteLedger()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 03:50:13 --> Undefined array key "tCost"
+in APPPATH\Views\sys\vote\voteLedger.php on line 102.
+ 1 APPPATH\Views\sys\vote\voteLedger.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tCost"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\voteLedger.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/voteLedger', [], true)
+ 5 APPPATH\Controllers\Vote.php(177): view('sys/vote/voteLedger', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->voteLedger()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:45:47 --> Undefined variable $newitemrequest
+in APPPATH\Controllers\ItemRequest.php on line 762.
+ 1 APPPATH\Controllers\ItemRequest.php(762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newitemrequest', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 762)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:46:14 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 135.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(777): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:54:27 --> Unclosed '{' on line 13
+in APPPATH\Controllers\ItemRequest.php on line 782.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/itemrequest/viewReqprogress', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/itemrequest/viewReqprogress')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/itemrequest/viewReqprogress')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:54:54 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 135.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:57:38 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 135.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:58:25 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 132.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 132)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:58:29 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 132.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 132)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:59:04 --> Undefined array key "BStartDate"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BStartDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:00:01 --> Undefined array key "ADate"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ADate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:11:39 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\itemrequest\viewReqprogress.php on line 135.
+ 1 APPPATH\Views\sys\itemrequest\viewReqprogress.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReqprogress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReqprogress', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(778): view('sys/itemrequest/viewReqprogress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReqprogress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:39:24 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:39:36 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:40:01 --> Undefined array key "BStartTime"
+in APPPATH\Views\sys\tender\viewcestimate.php on line 58.
+ 1 APPPATH\Views\sys\tender\viewcestimate.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BStartTime"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcestimate.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(871): view('sys/tender/viewcestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcestimate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:44:43 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:59:57 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:08:34 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:10:41 --> Undefined array key "glocation"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 184.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "glocation"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 184)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:12:22 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:12:50 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:14:58 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:24:15 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1073): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:24:19 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1073): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:24:36 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1073): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:25:06 --> Undefined array key "id"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 71.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 71)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1073): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:25:28 --> Undefined array key "BEndDate"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 75.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BEndDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1073): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 08:44:57 --> mysqli_sql_exception: Table 'ipmsm.your_table_name' doesn't exist in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.i...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.i...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.i...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.i...')
+#4 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 08:44:57 --> Table 'ipmsm.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'')
+ 5 APPPATH\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 08:50:02 --> mysqli_sql_exception: Table 'ipmsm.your_table_name' doesn't exist in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.i...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.i...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.i...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.i...')
+#4 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 08:50:02 --> Table 'ipmsm.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column WHERE t.PType = \'NCB\'')
+ 5 APPPATH\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 08:50:04 --> mysqli_sql_exception: Table 'ipmsm.your_table_name' doesn't exist in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.i...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.i...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.i...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.i...')
+#4 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 08:50:04 --> Table 'ipmsm.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 5 APPPATH\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 08:51:03 --> mysqli_sql_exception: Table 'ipmsm.your_table_name' doesn't exist in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.i...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.i...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.i...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.i...')
+#4 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 08:51:03 --> Table 'ipmsm.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 5 APPPATH\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 08:51:11 --> mysqli_sql_exception: Table 'ipmsm.your_table_name' doesn't exist in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.i...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.i...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.i...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.i...')
+#4 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 08:51:11 --> Table 'ipmsm.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT t.*, a.id AS AId, t.Description AS TName, t.Location AS glocation, y.date_submitted AS drec, SUM(k.Total_Cost) AS Costesitmate 
+              FROM your_table_name t 
+              LEFT JOIN another_table a ON t.join_column = a.join_column
+              LEFT JOIN yet_another_table y ON t.join_column = y.join_column
+              LEFT JOIN cost_table k ON t.join_column = k.join_column')
+ 5 APPPATH\Controllers\Tender.php(1069): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:51:32 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:53:27 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:57:38 --> Undefined array key "glocation"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 185.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "glocation"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 185)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:57:56 --> Undefined array key "BOpen"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 189.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BOpen"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 189)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:59:40 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:01:01 --> Undefined variable $tender
+in APPPATH\Controllers\Tender.php on line 1043.
+ 1 APPPATH\Controllers\Tender.php(1043): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 1043)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:02:40 --> Call to a member function where() on array
+in APPPATH\Controllers\Tender.php on line 1054.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:04:50 --> Call to a member function where() on array
+in APPPATH\Controllers\Tender.php on line 1053.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:04:58 --> Call to a member function where() on array
+in APPPATH\Controllers\Tender.php on line 1053.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:07:08 --> Call to undefined method App\Models\TenderModel::getTenderprogressQuery
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Tender.php(1052): CodeIgniter\Model->__call('getTenderprogressQuery', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:08:18 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 09:09:10 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1077): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 10:52:35 --> Undefined array key "Status"
+in APPPATH\Views\sys\content_BidOpeningCommittee.php on line 271.
+ 1 APPPATH\Views\sys\content_BidOpeningCommittee.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_BidOpeningCommittee.php', 271)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_BidOpeningCommittee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_bidopeningcommittee', [], true)
+ 5 APPPATH\Controllers\Sys.php(84): view('sys/content_bidopeningcommittee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 11:08:38 --> Undefined variable $result
+in APPPATH\Views\sys\content_BidOpeningCommittee.php on line 213.
+ 1 APPPATH\Views\sys\content_BidOpeningCommittee.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_BidOpeningCommittee.php', 213)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_BidOpeningCommittee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_bidopeningcommittee', [], true)
+ 5 APPPATH\Controllers\Sys.php(84): view('sys/content_bidopeningcommittee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:11:36 --> Undefined array key "date_difference"
+in APPPATH\Views\sys\submitedBid\OpeningBid.php on line 87.
+ 1 APPPATH\Views\sys\submitedBid\OpeningBid.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_difference"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpeningBid.php', 87)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpeningBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpeningBid', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(63): view('sys/SubmitedBid/OpeningBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpeningBid()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:18:11 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:20:23 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:24:56 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:25:01 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:25:06 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:25:09 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:25:23 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:25:59 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(83): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:26:01 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(83): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:26:03 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Vote.php(216): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->voteLedger()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:28:29 --> Undefined array key "BStartTime"
+in APPPATH\Views\sys\tender\viewcestimate.php on line 58.
+ 1 APPPATH\Views\sys\tender\viewcestimate.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BStartTime"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcestimate.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(871): view('sys/tender/viewcestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcestimate()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:38:36 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:40:44 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 14:04:17 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(207): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 14:39:17 --> Class "App\Controllers\ProcurementItemModel" not found
+in APPPATH\Controllers\ProcurementRequestItemList.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementRequestItemList->view()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementRequestItemList))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 14:40:07 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\ProcurementRequestItemList.php on line 139.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/ProcurementRequestItemList/view', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/ProcurementRequestItemList/view')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/ProcurementRequestItemList/view')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 16:43:35 --> Undefined variable $sannonce
+in APPPATH\Controllers\Web.php on line 90.
+ 1 APPPATH\Controllers\Web.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sannonce', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 16:52:38 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 444.
+ 1 APPPATH\Controllers\ItemRequest.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 16:53:04 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 444.
+ 1 APPPATH\Controllers\ItemRequest.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 16:53:13 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 444.
+ 1 APPPATH\Controllers\ItemRequest.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 16:55:36 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 444.
+ 1 APPPATH\Controllers\ItemRequest.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 16:56:18 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 444.
+ 1 APPPATH\Controllers\ItemRequest.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 17:04:01 --> mysqli_sql_exception: Column 'PQty' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(161): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-17 17:04:02 --> Column 'PQty' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (:RItemid:, :RId:, :Vote:, :Description:, :ICatergory:, :ItemName:, :ListItemId:, :Qty:, :PQty:, :Unit:, :sample_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ItemRequest.php(161): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 17:05:05 --> mysqli_sql_exception: Column 'PQty' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(161): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-17 17:05:05 --> Column 'PQty' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (:RItemid:, :RId:, :Vote:, :Description:, :ICatergory:, :ItemName:, :ListItemId:, :Qty:, :PQty:, :Unit:, :sample_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ItemRequest.php(161): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 17:05:09 --> mysqli_sql_exception: Column 'PQty' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(161): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-17 17:05:09 --> Column 'PQty' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (NULL, \'133\', \'1201\', \'Stationery\', \' Stationary Item   \', \'A4 Bundle\', \'1\', \'10\', NULL, \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Vote`, `Description`, `ICatergory`, `ItemName`, `ListItemId`, `Qty`, `PQty`, `Unit`, `sample_image`) VALUES (:RItemid:, :RId:, :Vote:, :Description:, :ICatergory:, :ItemName:, :ListItemId:, :Qty:, :PQty:, :Unit:, :sample_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ItemRequest.php(161): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 17:06:59 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 443.
+ 1 APPPATH\Controllers\ItemRequest.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 443)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 17:48:00 --> Class "App\Controllers\EmployeeModel" not found
+in APPPATH\Controllers\SubmitedBid.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBid('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 18:23:53 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1078): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 18:48:41 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1078): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 18:51:07 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1078): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 19:05:08 --> Undefined variable $tender
+in APPPATH\Controllers\Tender.php on line 1044.
+ 1 APPPATH\Controllers\Tender.php(1044): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 1044)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 19:29:49 --> mysqli_sql_exception: Column 'RId' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(388): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->updaterequest()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-17 19:29:49 --> Column 'RId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Qty`) VALUES (NULL, NULL, \'20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Qty`) VALUES (NULL, NULL, \'20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Qty`) VALUES (NULL, NULL, \'20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ReqItem` (`RItemid`, `RId`, `Qty`) VALUES (:RItemid:, :RId:, :Qty:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ItemRequest.php(388): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->updaterequest()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 19:43:04 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\ItemRequest.php on line 440.
+ 1 APPPATH\Controllers\ItemRequest.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->updaterequest()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,60 @@
+CRITICAL - 2024-04-01 14:18:10 --> Undefined array key "TName"
+in APPPATH\Views\sys\tender\TenderProgress.php on line 182.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(1065): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 16:59:32 --> syntax error, unexpected identifier "SELECT", expecting ")"
+in APPPATH\Models\PAnalysisMarksModel.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\IPMS\\app\\Models\\PAnalysisMarksModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PAnalysisMarksModel')
+ 3 APPPATH\Controllers\Payments.php(93): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PAnalysisMarksModel')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 17:01:27 --> Undefined array key "BidDOC"
+in APPPATH\Views\sys\Payments\BidBond.php on line 120.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BidDOC"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(99): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 17:01:44 --> Undefined array key "BidDOC"
+in APPPATH\Views\sys\Payments\BidBond.php on line 120.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BidDOC"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(99): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 17:03:03 --> Undefined array key "BidDOC"
+in APPPATH\Views\sys\Payments\BidBond.php on line 120.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BidDOC"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(99): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 17:42:12 --> Undefined variable $TId
+in APPPATH\Controllers\Payments.php on line 75.
+ 1 APPPATH\Controllers\Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Payments.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBondAdd()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,44 @@
+CRITICAL - 2023-09-07 14:25:30 --> Undefined variable $id
+in APPPATH\Views\sys\vote\add.php on line 21.
+ 1 APPPATH\Views\sys\vote\add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/add', [], true)
+ 5 APPPATH\Controllers\Vote.php(47): view('sys/vote/add', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:29:02 --> Undefined variable $id
+in APPPATH\Views\sys\vote\add.php on line 21.
+ 1 APPPATH\Views\sys\vote\add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/add', [], true)
+ 5 APPPATH\Controllers\Vote.php(47): view('sys/vote/add', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:31:40 --> Undefined variable $id
+in APPPATH\Views\sys\vote\add.php on line 21.
+ 1 APPPATH\Views\sys\vote\add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/add', [], true)
+ 5 APPPATH\Controllers\Vote.php(47): view('sys/vote/add', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:32:31 --> Undefined variable $id
+in APPPATH\Views\sys\vote\add.php on line 21.
+ 1 APPPATH\Views\sys\vote\add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\vote\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/vote/add', [], true)
+ 5 APPPATH\Controllers\Vote.php(47): view('sys/vote/add', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Vote->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

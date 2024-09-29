@@ -1,0 +1,668 @@
+CRITICAL - 2024-02-27 03:18:24 --> Undefined array key "business_name"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 49.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(574): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:18:25 --> Undefined array key "business_name"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 49.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(574): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:46:45 --> Undefined array key "UserId"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 51.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(574): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:46:46 --> Undefined array key "UserId"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 51.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(574): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:47:37 --> Undefined array key "UserId"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 55.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(574): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:47:37 --> Undefined array key "UserId"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 55.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(574): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:49:13 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(679): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:51:32 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(679): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:57:38 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(679): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 03:57:44 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(679): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 04:41:42 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(679): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 04:54:18 --> Undefined variable $lista
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 112.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 112)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(474): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 04:54:18 --> Undefined variable $lista
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 112.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lista', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 112)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(474): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 05:48:33 --> Undefined array key "SubmittedDate"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 157.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SubmittedDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(505): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 05:48:34 --> Undefined array key "SubmittedDate"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 157.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SubmittedDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(505): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 05:51:08 --> Undefined array key "business_name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 27.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(505): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 05:51:08 --> Undefined array key "business_name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 27.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(505): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 05:51:44 --> Undefined array key "business_name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 27.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(505): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 05:51:44 --> Undefined array key "business_name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 27.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(505): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 06:16:28 --> Undefined variable $listD
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 174.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listD', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 174)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(500): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 06:16:29 --> Undefined variable $listD
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 174.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listD', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 174)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(500): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-27 07:03:28 --> mysqli_sql_exception: Unknown column 'specification.Item' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(12): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(464): App\Models\TecAnalysisMarksModel->GetTECAmarksDetails('51', NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-27 07:03:28 --> Unknown column 'specification.Item' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(12): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(464): App\Models\TecAnalysisMarksModel->GetTECAmarksDetails('51', null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-27 07:13:33 --> mysqli_sql_exception: Unknown column 'specification.Item' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(12): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(464): App\Models\TecAnalysisMarksModel->GetTECAmarksDetails('51', NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-27 07:13:33 --> Unknown column 'specification.Item' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *, titem.Item AS Itemname
+        FROM `tecanalysismarks` 
+        LEFT JOIN titem ON titem.TItemid = specification.Item
+        LEFT JOIN specification ON tecanalysismarks.Itemid = specification.Item
+        WHERE tecanalysismarks.TenderId = \'51\'')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(12): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(464): App\Models\TecAnalysisMarksModel->GetTECAmarksDetails('51', null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 07:57:25 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewmore.php on line 121.
+ 1 APPPATH\Views\sys\tender\viewmore.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewmore', [], true)
+ 5 APPPATH\Controllers\Tender.php(276): view('sys/tender/viewmore', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewmore('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 07:57:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:00:20 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewmore.php on line 121.
+ 1 APPPATH\Views\sys\tender\viewmore.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewmore', [], true)
+ 5 APPPATH\Controllers\Tender.php(276): view('sys/tender/viewmore', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewmore('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:00:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:04:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:06:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:28:40 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewmore.php on line 121.
+ 1 APPPATH\Views\sys\tender\viewmore.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewmore', [], true)
+ 5 APPPATH\Controllers\Tender.php(276): view('sys/tender/viewmore', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewmore('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:28:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:30:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:31:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:32:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:33:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:33:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 08:35:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 09:23:16 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewmore.php on line 121.
+ 1 APPPATH\Views\sys\tender\viewmore.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewmore.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewmore', [], true)
+ 5 APPPATH\Controllers\Tender.php(276): view('sys/tender/viewmore', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewmore('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 09:23:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 38.
+ 1 APPPATH\Views\sys\tender\createSpec.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(224): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 09:33:48 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 09:33:55 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:31:32 --> Undefined constant "listT"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 4 APPPATH\Controllers\BidEvaluation.php(495): view('sys/BidEvaluation/TECEvaluation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:31:33 --> Undefined constant "listT"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 4 APPPATH\Controllers\BidEvaluation.php(495): view('sys/BidEvaluation/TECEvaluation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:32:39 --> Undefined constant "listT"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 4 APPPATH\Controllers\BidEvaluation.php(495): view('sys/BidEvaluation/TECEvaluation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:32:39 --> Undefined constant "listT"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 4 APPPATH\Controllers\BidEvaluation.php(495): view('sys/BidEvaluation/TECEvaluation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:13:48 --> Invalid file: "contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH\Controllers\Web.php(1223): view('contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:46:29 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Web.php on line 576.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/verifyDOCCharges/d0fc82016eb7bbef2dc1fb4f82710355', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/verifyDOCCharges/d0fc82016eb7bbef2dc1fb4f82710355')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/verifyDOCCharges/d0fc82016eb7bbef2dc1fb4f82710355')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:46:39 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Web.php on line 576.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/viewtender', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/viewtender')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/viewtender')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:59:01 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:59:21 --> Undefined variable $data
+in APPPATH\Controllers\BidEvaluation.php on line 722.
+ 1 APPPATH\Controllers\BidEvaluation.php(722): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 722)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveSpecStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:00:02 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:00:04 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 46.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(723): view('sys/BidEvaluation/TechnicalEvaluation', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveSpecStatus()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:01:28 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:01:34 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:01:39 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:02:10 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(699): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

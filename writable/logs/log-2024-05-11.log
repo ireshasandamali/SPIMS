@@ -1,0 +1,162 @@
+CRITICAL - 2024-05-11 05:34:18 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 12:42:41 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:09:34 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:17:13 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:21:59 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:23:21 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:26:36 --> Undefined array key "id"
+in APPPATH\Views\sys\itemrequest\itemNameList.php on line 4.
+ 1 APPPATH\Views\sys\itemrequest\itemNameList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemNameList.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemNameList.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemNameList', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(423): view('sys/itemrequest/itemNameList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemName()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:26:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 429.
+ 1 APPPATH\Controllers\ItemRequest.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 429)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:27:21 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:27:49 --> Undefined array key "id"
+in APPPATH\Views\sys\itemrequest\itemNameList.php on line 4.
+ 1 APPPATH\Views\sys\itemrequest\itemNameList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemNameList.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemNameList.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemNameList', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(423): view('sys/itemrequest/itemNameList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemName()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:36:12 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\ItemRequest.php(62): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:40:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 429.
+ 1 APPPATH\Controllers\ItemRequest.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 429)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:41:01 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:44:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 429.
+ 1 APPPATH\Controllers\ItemRequest.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 429)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:46:26 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:46:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 429.
+ 1 APPPATH\Controllers\ItemRequest.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 429)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:46:55 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:54:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 429.
+ 1 APPPATH\Controllers\ItemRequest.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 429)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:54:50 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 13:58:18 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 434.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 14:00:31 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 434.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 14:01:06 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 434.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 14:01:36 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 434.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 14:05:33 --> Class "App\Controllers\InventoryModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 434.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

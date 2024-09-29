@@ -1,0 +1,1122 @@
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:22:06 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 APPPATH\Views\web\viewdetailedBid.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 215)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(217): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 03:23:42 --> Undefined array key "is_verified"
+in APPPATH\Views\web\viewdetailedBid.php on line 185.
+ 1 APPPATH\Views\web\viewdetailedBid.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_verified"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 185)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('4', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:56:37 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(205): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:56:49 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(205): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:56:54 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(205): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:26:16 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 222.
+ 1 APPPATH\Views\web\viewdetailedBid.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(218): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBids('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:30:15 --> Undefined array key "Tname"
+in APPPATH\Views\web\viewOpenedBid.php on line 169.
+ 1 APPPATH\Views\web\viewOpenedBid.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tname"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php', 169)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewOpenedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(385): view('web/viewOpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewOpenedBid('1', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:30:56 --> Undefined array key "Tname"
+in APPPATH\Views\web\viewOpenedBid.php on line 169.
+ 1 APPPATH\Views\web\viewOpenedBid.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tname"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php', 169)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewOpenedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(385): view('web/viewOpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewOpenedBid('1', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:31:32 --> Undefined array key "description"
+in APPPATH\Views\web\viewOpenedBid.php on line 169.
+ 1 APPPATH\Views\web\viewOpenedBid.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php', 169)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewOpenedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(385): view('web/viewOpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewOpenedBid('1', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:31:37 --> Undefined array key "description"
+in APPPATH\Views\web\viewOpenedBid.php on line 169.
+ 1 APPPATH\Views\web\viewOpenedBid.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php', 169)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewOpenedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(385): view('web/viewOpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewOpenedBid('1', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:32:37 --> Undefined array key "dpayment"
+in APPPATH\Views\web\viewOpenedBid.php on line 170.
+ 1 APPPATH\Views\web\viewOpenedBid.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpayment"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php', 170)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewOpenedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(385): view('web/viewOpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewOpenedBid('1', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:32:38 --> Undefined array key "dpayment"
+in APPPATH\Views\web\viewOpenedBid.php on line 170.
+ 1 APPPATH\Views\web\viewOpenedBid.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpayment"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php', 170)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewOpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewOpenedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(385): view('web/viewOpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewOpenedBid('1', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:33:58 --> Undefined array key "Tname"
+in APPPATH\Views\web\viewAppliedBidders.php on line 136.
+ 1 APPPATH\Views\web\viewAppliedBidders.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tname"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewAppliedBidders.php', 136)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewAppliedBidders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewAppliedBidders', [], true)
+ 5 APPPATH\Controllers\Web.php(1717): view('web/viewAppliedBidders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewAppliedBidders('1', '3', '64')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 04:09:17 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\ProcurementPlan.php(42): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->createPro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 04:09:21 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(84): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 04:09:29 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Reports.php(165): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Reports->TECReport('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 04:15:28 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(205): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 05:25:51 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 95.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(205): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('images', 'uploads')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 07:55:23 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\IPMS\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1863)
+#1 C:\xampp\htdocs\IPMS\system\Email\Email.php(1863): fsockopen('smtp.gmail.com', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\IPMS\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\IPMS\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\IPMS\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(339): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->createSpec()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-30 07:55:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-30 07:55:23 --> 
+ERROR - 2024-03-30 07:55:45 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\IPMS\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1863)
+#1 C:\xampp\htdocs\IPMS\system\Email\Email.php(1863): fsockopen('smtp.gmail.com', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\IPMS\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\IPMS\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\IPMS\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(339): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->createSpec()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-30 07:55:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-30 07:55:45 --> 
+ERROR - 2024-03-30 07:55:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\IPMS\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1863)
+#1 C:\xampp\htdocs\IPMS\system\Email\Email.php(1863): fsockopen('smtp.gmail.com', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\IPMS\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\IPMS\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\IPMS\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(339): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->createSpec()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-30 07:55:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-30 07:55:57 --> 
+ERROR - 2024-03-30 13:33:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\IPMS\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1863)
+#1 C:\xampp\htdocs\IPMS\system\Email\Email.php(1863): fsockopen('smtp.gmail.com', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\IPMS\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\IPMS\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\IPMS\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(341): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->DOCCharges()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-30 13:33:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-30 13:33:28 --> 
+CRITICAL - 2024-03-30 08:30:39 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\inventory\view.php on line 129.
+ 1 APPPATH\Views\sys\inventory\view.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\inventory\\view.php', 129)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\inventory\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/inventory/view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(89): view('sys/inventory/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 08:46:39 --> Undefined variable $ItemId
+in APPPATH\Controllers\Inventory.php on line 66.
+ 1 APPPATH\Controllers\Inventory.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Inventory.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->view()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:04:15 --> Undefined variable $Item_List
+in APPPATH\Views\sys\inventory\viewmore.php on line 84.
+ 1 APPPATH\Views\sys\inventory\viewmore.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Item_List', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\inventory\\viewmore.php', 84)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\inventory\\viewmore.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/inventory/viewmore', [], true)
+ 5 APPPATH\Controllers\Inventory.php(126): view('sys/inventory/viewmore')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:06:03 --> Unclosed '{' on line 84
+in APPPATH\Views\sys\inventory\viewmore.php on line 163.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/inventory/viewmore', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/inventory/viewmore')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:06:10 --> Unclosed '{' on line 84
+in APPPATH\Views\sys\inventory\viewmore.php on line 163.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/inventory/viewmore', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/inventory/viewmore')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:07:28 --> Unclosed '{' on line 84
+in APPPATH\Views\sys\inventory\viewmore.php on line 163.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/inventory/viewmore', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/inventory/viewmore', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:08:06 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:09:07 --> Cannot redeclare App\Controllers\ItemRequest::viewItem()
+in APPPATH\Controllers\ItemRequest.php on line 209.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-30 09:10:48 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:11:15 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:11:17 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:11:24 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(126): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:12:52 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(127): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:13:52 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(127): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:13:58 --> Invalid file: "sys/viewmore/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/viewmore/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/viewmore/add', [], true)
+ 3 APPPATH\Controllers\Inventory.php(127): view('sys/viewmore/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inventory->viewmore('103')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:24:13 --> Undefined variable $ItemId
+in APPPATH\Controllers\ItemRequest.php on line 188.
+ 1 APPPATH\Controllers\ItemRequest.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 188)
+ 2 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(29)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:24:32 --> Undefined array key "ItemId"
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 73.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(193): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(30)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:24:41 --> Undefined array key "ItemId"
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 73.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(193): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(31)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:27:54 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(129): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(32)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:27:54 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(129): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(32)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:27:58 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(129): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(33)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:27:58 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(129): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(33)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:28:31 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(129): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(34)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:28:31 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(129): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(34)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:29:57 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(35)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:29:57 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(35)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:30:57 --> Undefined array key "ItemId"
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 73.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(196): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(36)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:31:18 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(37)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:31:18 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(37)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:33:01 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(38)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:33:01 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(38)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:36:24 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(39)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:36:24 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(189): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(39)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 09:43:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 194.
+ 1 APPPATH\Controllers\ItemRequest.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 194)
+ 2 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(43)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:46:09 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(45)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:46:09 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(45)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:47:04 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(46)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:47:04 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(46)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:47:21 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(47)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:47:21 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(47)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:48:32 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(48)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:48:32 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(48)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:49:33 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(49)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:49:33 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(49)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 09:50:08 --> mysqli_sql_exception: Unknown column 'ItemId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(50)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-30 09:50:08 --> Unknown column 'ItemId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `ItemId` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(191): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(57): App\Controllers\ItemRequest->reqItem(50)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

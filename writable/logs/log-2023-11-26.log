@@ -1,0 +1,624 @@
+CRITICAL - 2023-11-26 02:39:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\addItem.php on line 25.
+ 1 APPPATH\Views\sys\tender\addItem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(129): view('sys/tender/addItem', [...])
+ 6 APPPATH\Controllers\Tender.php(228): App\Controllers\Tender->addItem('assets')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->removeItem('38', 'assets', 'img', 'messages-1.jpg')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 02:41:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\addItem.php on line 25.
+ 1 APPPATH\Views\sys\tender\addItem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(129): view('sys/tender/addItem', [...])
+ 6 APPPATH\Controllers\Tender.php(228): App\Controllers\Tender->addItem('assets')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->removeItem('39', 'assets', 'img', 'messages-1.jpg')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 07:22:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(325): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 07:56:17 --> Undefined constant "App\Controllers\RequestID"
+in APPPATH\Controllers\ItemRequest.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 08:10:57 --> Undefined variable $RequestID
+in APPPATH\Controllers\ItemRequest.php on line 85.
+ 1 APPPATH\Controllers\ItemRequest.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RequestID', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 85)
+ 2 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(17)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 08:15:05 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 75.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(109): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(18)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 08:15:41 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 75.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(109): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(19)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 08:15:53 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 75.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(109): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(20)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 08:16:02 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 75.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(109): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(21)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 08:18:19 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:05:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\addItem.php on line 25.
+ 1 APPPATH\Views\sys\tender\addItem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(129): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:29:34 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:29:53 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:29:56 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:30:01 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:30:08 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:33:04 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:33:07 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:33:14 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:33:59 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:34:02 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:34:21 --> Undefined variable $RequestId
+in APPPATH\Views\sys\tender\create.php on line 20.
+ 1 APPPATH\Views\sys\tender\create.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RequestId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(70): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:36:09 --> Undefined variable $RId
+in APPPATH\Views\sys\itemrequest\createReq.php on line 138.
+ 1 APPPATH\Views\sys\itemrequest\createReq.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php', 138)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\createReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/createReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/itemrequest/createReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-26 09:37:00 --> mysqli_sql_exception: Unknown column 'RId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(86): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(22)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-26 09:37:00 --> Unknown column 'RId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 22
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 22
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 22
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `RId` = :RId:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(86): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(22)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-26 09:48:01 --> mysqli_sql_exception: Unknown column 'RId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(86): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(23)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-26 09:48:01 --> Unknown column 'RId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 23
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 23
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 23
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `RId` = :RId:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(86): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(23)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-26 09:48:41 --> mysqli_sql_exception: Unknown column 'RId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(86): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(24)
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-26 09:48:41 --> Unknown column 'RId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 24
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 24
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `itemrequest`
+WHERE `RId` = 24
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itemrequest`
+WHERE `RId` = :RId:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\ItemRequest.php(86): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(24)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:49:16 --> Class "App\RequestItemModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 109.
+ 1 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(25)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:49:21 --> Class "App\RequestItemModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 109.
+ 1 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:50:20 --> Class "App\RequestItemModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 109.
+ 1 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(27)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:51:20 --> Undefined variable $list
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 79.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(119): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(28)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:52:04 --> Undefined variable $list
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 79.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(119): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(29)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:52:11 --> Undefined variable $list
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 79.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(119): view('sys/itemrequest/reqItem', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(47): App\Controllers\ItemRequest->reqItem(30)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 09:55:20 --> Class "App\RequestItemModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:17:35 --> Invalid file: "sys/request/request.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/request/request.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/request/request', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/request/request', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->request()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:19:41 --> Invalid file: "sys/request/request.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/request/request.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/request/request', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/request/request', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->request()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:20:33 --> Invalid file: "sys/request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:20:39 --> Invalid file: "sys/request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:22:28 --> Invalid file: "sys/request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:22:35 --> Invalid file: "sys/request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:26:32 --> Invalid file: "sys/Request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/Request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:28:07 --> Invalid file: "sys/Request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/Request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:28:17 --> Invalid file: "sys/Request/requestadd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/Request/requestadd.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 3 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:29:54 --> Undefined variable $RId
+in APPPATH\Views\sys\request\requestadd.php on line 152.
+ 1 APPPATH\Views\sys\request\requestadd.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php', 152)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:29:57 --> Undefined variable $RId
+in APPPATH\Views\sys\request\requestadd.php on line 152.
+ 1 APPPATH\Views\sys\request\requestadd.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php', 152)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:30:54 --> Undefined variable $RId
+in APPPATH\Views\sys\request\requestadd.php on line 152.
+ 1 APPPATH\Views\sys\request\requestadd.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php', 152)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:31:34 --> Undefined variable $RId
+in APPPATH\Views\sys\request\requestadd.php on line 152.
+ 1 APPPATH\Views\sys\request\requestadd.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php', 152)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\request\\requestadd.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Request/requestadd', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('sys/Request/requestadd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Request->requestadd()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:34:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(325): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:48:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(325): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 10:57:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(354): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 11:01:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(339): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 11:01:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 25.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(339): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 14:47:58 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

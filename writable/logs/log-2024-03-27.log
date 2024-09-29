@@ -1,0 +1,1481 @@
+CRITICAL - 2024-03-27 02:39:08 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 97.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:39:09 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 97.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:42:39 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 96.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:42:39 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 96.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:44:06 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 96.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:44:06 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 96.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:44:19 --> Undefined variable $result
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 101.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:44:20 --> Undefined variable $result
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 101.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:44:42 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:44:45 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:45:38 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:45:46 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 02:46:04 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 97.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 03:03:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM dtecremarks WHERE i.TenderId=1'' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\DTECRemarksModel.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Procurement.php(372): App\Models\DTECRemarksModel->getDTECmarks('1')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Procurement->PCEvaluation('1')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-27 03:03:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM dtecremarks WHERE i.TenderId=1'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM dtecremarks i          
+        SELECT * FROM dtecremarks WHERE i.TenderId=1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM dtecremarks i          
+        SELECT * FROM dtecremarks WHERE i.TenderId=1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM dtecremarks i          
+        SELECT * FROM dtecremarks WHERE i.TenderId=1\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM dtecremarks i          
+        SELECT * FROM dtecremarks WHERE i.TenderId=1\'')
+ 5 APPPATH\Models\DTECRemarksModel.php(17): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Procurement.php(372): App\Models\DTECRemarksModel->getDTECmarks('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->PCEvaluation('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:15:13 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 97.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(934): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:27:10 --> Class "App\Controllers\PCdocRemarksModel" not found
+in APPPATH\Controllers\Procurement.php on line 382.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->PCEvaluation()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:31:28 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 97.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(930): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:32:00 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 97.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(930): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:33:28 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 90.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 90)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(930): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:40:17 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 108.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 108)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(931): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:41:02 --> Undefined variable $result
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 36.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(931): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:41:02 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 108.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 108)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(931): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:41:28 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\ViewTCEstimate.php on line 108.
+ 1 APPPATH\Views\sys\tender\ViewTCEstimate.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php', 108)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\ViewTCEstimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/ViewTCEstimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(931): view('sys/tender/ViewTCEstimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->ViewTCEstimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:42:21 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(398): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:45:47 --> Undefined variable $vote_list
+in APPPATH\Views\sys\tender\create.php on line 69.
+ 1 APPPATH\Views\sys\tender\create.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vote_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 69)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(90): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:48:46 --> Array to string conversion
+in APPPATH\Views\sys\tender\create.php on line 74.
+ 1 APPPATH\Views\sys\tender\create.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(92): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:49:56 --> Array to string conversion
+in APPPATH\Views\sys\tender\create.php on line 74.
+ 1 APPPATH\Views\sys\tender\create.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(92): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:54:03 --> Undefined variable $vote_list
+in APPPATH\Views\sys\tender\create.php on line 70.
+ 1 APPPATH\Views\sys\tender\create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vote_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 70)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(93): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 03:57:41 --> Undefined variable $vote_list
+in APPPATH\Controllers\Tender.php on line 32.
+ 1 APPPATH\Controllers\Tender.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vote_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 04:05:50 --> Undefined array key 1103
+in APPPATH\Controllers\Procurement.php on line 345.
+ 1 APPPATH\Controllers\Procurement.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1103', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Procurement.php', 345)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->Savepcapproval()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 04:10:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Procurement.php on line 351.
+ 1 APPPATH\Controllers\Procurement.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Procurement.php', 351)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->Savepcapproval()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 04:13:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Procurement.php on line 347.
+ 1 APPPATH\Controllers\Procurement.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Procurement.php', 347)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->Savepcapproval()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 04:15:20 --> mysqli_sql_exception: Unknown column 'TotalPIVat' in 'field list' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `PC...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `PC...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `PC...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `PC...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\Procurement.php(343): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Procurement->Savepcapproval()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-27 04:15:20 --> Unknown column 'TotalPIVat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `PCmarks` (`TenderId`, `CompanyName`, `Qty`, `ItemName`, `Unit_priceEV`, `TotalPIVat`, `Itemid`, `VendorId`) VALUES (\'3\', \'RT Creations \', \'60 \', \'Tyres 410 x 18 \', \'10094.00 \', \'605640.00 \', \'103 \', \'1 \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `PCmarks` (`TenderId`, `CompanyName`, `Qty`, `ItemName`, `Unit_priceEV`, `TotalPIVat`, `Itemid`, `VendorId`) VALUES (\'3\', \'RT Creations \', \'60 \', \'Tyres 410 x 18 \', \'10094.00 \', \'605640.00 \', \'103 \', \'1 \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `PCmarks` (`TenderId`, `CompanyName`, `Qty`, `ItemName`, `Unit_priceEV`, `TotalPIVat`, `Itemid`, `VendorId`) VALUES (\'3\', \'RT Creations \', \'60 \', \'Tyres 410 x 18 \', \'10094.00 \', \'605640.00 \', \'103 \', \'1 \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `PCmarks` (`TenderId`, `CompanyName`, `Qty`, `ItemName`, `Unit_priceEV`, `TotalPIVat`, `Itemid`, `VendorId`) VALUES (:TenderId:, :CompanyName:, :Qty:, :ItemName:, :Unit_priceEV:, :TotalPIVat:, :Itemid:, :VendorId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Procurement.php(343): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->Savepcapproval()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 04:35:13 --> Undefined variable $Tenderid
+in APPPATH\Views\sys\awarding\createLetter.php on line 131.
+ 1 APPPATH\Views\sys\awarding\createLetter.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tenderid', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetter.php', 131)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetter.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetter', [], true)
+ 5 APPPATH\Controllers\Awarding.php(31): view('sys/Awarding/createLetter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 04:36:45 --> Undefined variable $Tenderid
+in APPPATH\Views\sys\awarding\createLetter.php on line 131.
+ 1 APPPATH\Views\sys\awarding\createLetter.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tenderid', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetter.php', 131)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetter.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetter', [], true)
+ 5 APPPATH\Controllers\Awarding.php(31): view('sys/Awarding/createLetter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 04:56:23 --> Undefined variable $vote_list
+in APPPATH\Controllers\Tender.php on line 32.
+ 1 APPPATH\Controllers\Tender.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vote_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 05:01:44 --> Undefined variable $vote_list
+in APPPATH\Views\sys\tender\create.php on line 70.
+ 1 APPPATH\Views\sys\tender\create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vote_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 70)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(93): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 05:59:47 --> Invalid file: "sys/Procurement/ProcurementMeeting.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/Procurement/ProcurementMeeting.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Procurement/ProcurementMeeting', [], true)
+ 3 APPPATH\Controllers\Procurement.php(620): view('sys/Procurement/ProcurementMeeting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->ProcurementMeeting()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 06:03:54 --> Undefined variable $lists
+in APPPATH\Views\sys\Procurement\OpeningReport.php on line 47.
+ 1 APPPATH\Views\sys\Procurement\OpeningReport.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lists', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Procurement\\OpeningReport.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Procurement\\OpeningReport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Procurement/OpeningReport', [], true)
+ 5 APPPATH\Controllers\Procurement.php(219): view('sys/Procurement/OpeningReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->OpeningReport()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 06:37:16 --> Undefined array key 0
+in APPPATH\Views\sys\submitedBid\OpenedTender.php on line 28.
+ 1 APPPATH\Views\sys\submitedBid\OpenedTender.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedTender.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedTender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedTender', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(185): view('sys/SubmitedBid/OpenedTender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('1', '3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 06:46:37 --> Undefined array key 0
+in APPPATH\Views\sys\submitedBid\OpenedBReport.php on line 28.
+ 1 APPPATH\Views\sys\submitedBid\OpenedBReport.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBReport.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBReport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedBReport', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(260): view('sys/SubmitedBid/OpenedBReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBReport('1', '3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 06:57:40 --> Undefined variable $Openreult
+in APPPATH\Controllers\SubmitedBid.php on line 250.
+ 1 APPPATH\Controllers\SubmitedBid.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Openreult', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\SubmitedBid.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBReport('1', '3', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 07:00:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'o.VendorId='1'' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\OpeningRemarksModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\SubmitedBid.php(251): App\Models\OpeningRemarksModel->GetopeningDetails('1', '3', '1')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBReport('1', '3', '1')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-27 07:00:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'o.VendorId='1'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM openeingremarks o 
+        WHERE  o.TenderId=\'3\' AND o.AnnounceId=\'1\' o.VendorId=\'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM openeingremarks o 
+        WHERE  o.TenderId=\'3\' AND o.AnnounceId=\'1\' o.VendorId=\'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM openeingremarks o 
+        WHERE  o.TenderId=\'3\' AND o.AnnounceId=\'1\' o.VendorId=\'1\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM openeingremarks o 
+        WHERE  o.TenderId=\'3\' AND o.AnnounceId=\'1\' o.VendorId=\'1\'')
+ 5 APPPATH\Models\OpeningRemarksModel.php(25): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\SubmitedBid.php(251): App\Models\OpeningRemarksModel->GetopeningDetails('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBReport('1', '3', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 07:00:41 --> Undefined array key 0
+in APPPATH\Views\sys\submitedBid\OpenedBReport.php on line 28.
+ 1 APPPATH\Views\sys\submitedBid\OpenedBReport.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBReport.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBReport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedBReport', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(255): view('sys/SubmitedBid/OpenedBReport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBReport('1', '3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 07:18:13 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(861): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 07:26:44 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(861): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:23:27 --> Invalid file: "sys/Awarding/createLetter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/Awarding/createLetter.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetter', [], true)
+ 3 APPPATH\Controllers\Awarding.php(31): view('sys/Awarding/createLetter', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:23:40 --> Invalid file: "sys/Awarding/createLetter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/Awarding/createLetter.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetter', [], true)
+ 3 APPPATH\Controllers\Awarding.php(31): view('sys/Awarding/createLetter', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:40:25 --> Undefined variable $Awarding
+in APPPATH\Views\sys\awarding\LetterofIntent.php on line 77.
+ 1 APPPATH\Views\sys\awarding\LetterofIntent.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Awarding', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\LetterofIntent.php', 77)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\LetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/LetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(29): view('sys/Awarding/LetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:41:59 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 87.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 87)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(43): view('sys/Awarding/createLetterofIntent', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('4', '8')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:41:59 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 87.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 87)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(43): view('sys/Awarding/createLetterofIntent', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('4', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 08:48:30 --> mysqli_sql_exception: Unknown column 'fanalysismarks.TenderId' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\PcApprovaldataModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Awarding.php(25): App\Models\PcApprovaldataModel->GetlointentDetails(NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-27 08:48:30 --> Unknown column 'fanalysismarks.TenderId' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *, SUM(TotalPIVat) AS Awarding
+        FROM PCmarks    
+        LEFT JOIN tender t ON t.Tenderid = fanalysismarks.TenderId     
+        WHERE marks = \'1\'  AND PCmarks.TenderId =\'\' AND PCmarks.VendorId =\'\'  GROUP BY VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *, SUM(TotalPIVat) AS Awarding
+        FROM PCmarks    
+        LEFT JOIN tender t ON t.Tenderid = fanalysismarks.TenderId     
+        WHERE marks = \'1\'  AND PCmarks.TenderId =\'\' AND PCmarks.VendorId =\'\'  GROUP BY VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *, SUM(TotalPIVat) AS Awarding
+        FROM PCmarks    
+        LEFT JOIN tender t ON t.Tenderid = fanalysismarks.TenderId     
+        WHERE marks = \'1\'  AND PCmarks.TenderId =\'\' AND PCmarks.VendorId =\'\'  GROUP BY VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *, SUM(TotalPIVat) AS Awarding
+        FROM PCmarks    
+        LEFT JOIN tender t ON t.Tenderid = fanalysismarks.TenderId     
+        WHERE marks = \'1\'  AND PCmarks.TenderId =\'\' AND PCmarks.VendorId =\'\'  GROUP BY VendorId')
+ 5 APPPATH\Models\PcApprovaldataModel.php(25): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Awarding.php(25): App\Models\PcApprovaldataModel->GetlointentDetails(null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:49:26 --> Undefined variable $Fmarks
+in APPPATH\Controllers\Awarding.php on line 67.
+ 1 APPPATH\Controllers\Awarding.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Fmarks', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Awarding.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->getBidderList()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:56:16 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 87.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 87)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(45): view('sys/Awarding/createLetterofIntent', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 08:56:16 --> Undefined variable $Tender_list
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 87.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tender_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 87)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(45): view('sys/Awarding/createLetterofIntent', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 09:32:45 --> Undefined array key "Tenderid "
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid "', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 09:33:24 --> Undefined array key "Tenderid "
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid "', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 09:34:30 --> Undefined array key "Tenderid "
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid "', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 09:35:10 --> Undefined array key "Tenderid "
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid "', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 09:57:40 --> Undefined array key "vat"
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vat"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 10:14:20 --> Undefined array key "vat"
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vat"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 10:15:05 --> Undefined array key "vat"
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vat"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 10:15:40 --> Undefined array key "vat"
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 44.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vat"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(46): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 10:57:41 --> mysqli_sql_exception: Column 'TenderId' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\Awarding.php(39): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-27 10:57:41 --> Column 'TenderId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, NULL, NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, NULL, NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, NULL, NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (:TenderId:, :VendorId:, :TAwarding:, :ADate:, :PBond:, :CreateDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Awarding.php(39): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 10:58:40 --> Undefined variable $VId
+in APPPATH\Controllers\Awarding.php on line 41.
+ 1 APPPATH\Controllers\Awarding.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Awarding.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 10:59:06 --> mysqli_sql_exception: Column 'TenderId' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\Awarding.php(39): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-27 10:59:06 --> Column 'TenderId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, NULL, NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, NULL, NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, NULL, NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `letterofintent` (`TenderId`, `VendorId`, `TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (:TenderId:, :VendorId:, :TAwarding:, :ADate:, :PBond:, :CreateDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Awarding.php(39): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 11:06:01 --> mysqli_sql_exception: Column 'TAwarding' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\Awarding.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-27 11:06:01 --> Column 'TAwarding' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `letterofintent` (`TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `letterofintent` (`TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `letterofintent` (`TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (NULL, \'2024-03-07\', \'13800\', \'2024-03-27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `letterofintent` (`TAwarding`, `ADate`, `PBond`, `CreateDate`) VALUES (:TAwarding:, :ADate:, :PBond:, :CreateDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Awarding.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->LetterofIntent()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 11:50:07 --> Undefined array key "Status"
+in APPPATH\Views\sys\Payments\BidBond.php on line 125.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(85): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 11:54:18 --> Undefined array key "Status"
+in APPPATH\Views\sys\Payments\BidBond.php on line 125.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(85): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 11:54:28 --> Undefined array key "Status"
+in APPPATH\Views\sys\Payments\BidBond.php on line 125.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(85): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:14:07 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:14:12 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:16:09 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:17:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\itemrequest\editrequest.php on line 36.
+ 1 APPPATH\Views\sys\itemrequest\editrequest.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\editrequest.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\editrequest.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/editrequest', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(340): view('sys/itemRequest/editrequest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->editrequest('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:18:52 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:19:50 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH\Models\RequestModel.php on line 52.
+ 1 APPPATH\Models\RequestModel.php(52): implode(',', null)
+ 2 APPPATH\Controllers\Tender.php(230): App\Models\RequestModel->getrequestItemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('5')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:23:14 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:23:26 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:24:44 --> Undefined variable $listcost
+in APPPATH\Controllers\Invitation.php on line 137.
+ 1 APPPATH\Controllers\Invitation.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listcost', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Invitation.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->gettotalcost()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:40:45 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:40:50 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:40:50 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:40:57 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:41:01 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:41:06 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:41:06 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:43:00 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:43:00 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:43:02 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:43:06 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:43:10 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:43:10 --> Undefined variable $TotalOtherCost
+in APPPATH\Views\sys\tender\viewcreatecostestimate.php on line 125.
+ 1 APPPATH\Views\sys\tender\viewcreatecostestimate.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TotalOtherCost', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewcreatecostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewcreatecostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(605): view('sys/tender/viewcreatecostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewcreatecostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:44:29 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 12:44:42 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:34:15 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:34:22 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:34:27 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:34:32 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:34:38 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:34:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 37.
+ 1 APPPATH\Views\sys\tender\createSpec.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(349): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:38:29 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:38:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 40.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(569): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:39:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 40.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(569): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:45:02 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:45:27 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:45:33 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:45:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 40.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(569): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:46:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 40.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(569): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:46:42 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:46:47 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:46:51 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:46:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createcostestimate.php on line 40.
+ 1 APPPATH\Views\sys\tender\createcostestimate.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createcostestimate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createcostestimate', [], true)
+ 5 APPPATH\Controllers\Tender.php(569): view('sys/tender/createcostestimate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createcostestimate('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:51:03 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:51:24 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 15:54:32 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 142.
+ 1 APPPATH\Views\sys\tender\viewtender.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(401): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 23:36:20 --> mysqli_sql_exception: Unknown column 't.Tenderid' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\InvitationModel.php(15): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(224): App\Models\InvitationModel->getinvitationDetails('3', NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('3', '1')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-27 23:36:20 --> Unknown column 't.Tenderid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'')
+ 5 APPPATH\Models\InvitationModel.php(15): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Web.php(224): App\Models\InvitationModel->getinvitationDetails('3', null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('3', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 23:37:48 --> mysqli_sql_exception: Unknown column 't.Tenderid' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\InvitationModel.php(15): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(224): App\Models\InvitationModel->getinvitationDetails('3', NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('3', '1')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-27 23:37:48 --> Unknown column 't.Tenderid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM invitation i 
+        LEFT JOIN DocumentCharges d ON d.TenderId = t.Tenderid AND d.UserId=\'\'
+        LEFT JOIN tender t ON t.Tenderid = i.TId
+        where i.IFBId=\'3\'')
+ 5 APPPATH\Models\InvitationModel.php(15): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Web.php(224): App\Models\InvitationModel->getinvitationDetails('3', null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('3', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 19:35:10 --> Undefined variable $ADate
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 47.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ADate', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(119): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1', '2024-04-01', '13800', 'Rs. Thirteen thousand eight hundred', '2024-04-30')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 19:35:10 --> Undefined variable $ADate
+in APPPATH\Views\sys\awarding\createLetterofIntent.php on line 47.
+ 1 APPPATH\Views\sys\awarding\createLetterofIntent.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ADate', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\awarding\\createLetterofIntent.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Awarding/createLetterofIntent', [], true)
+ 5 APPPATH\Controllers\Awarding.php(119): view('sys/Awarding/createLetterofIntent', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent('3', '1', '2024-04-01', '13800', 'Rs. Thirteen thousand eight hundred', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

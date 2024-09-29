@@ -1,0 +1,215 @@
+CRITICAL - 2024-04-02 13:41:00 --> Undefined variable $PCmarks
+in APPPATH\Controllers\Payments.php on line 95.
+ 1 APPPATH\Controllers\Payments.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PCmarks', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Payments.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:41:33 --> Undefined array key "business_name"
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 45.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(145): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:41:38 --> Undefined array key "business_name"
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 45.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(145): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:42:02 --> Undefined array key "business_name"
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 45.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:42:06 --> Undefined array key "business_name"
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 45.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:43:20 --> Undefined array key "Tenderid"
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 54.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tenderid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:45:13 --> Undefined array key "SubmittedDate"
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 55.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SubmittedDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:56:01 --> Undefined variable $TId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 36.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 13:57:49 --> Undefined variable $TId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 36.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:02:44 --> Undefined variable $VId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 36.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $VId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:15:25 --> Undefined variable $TId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 36.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:17:47 --> Undefined variable $TId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 42.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(146): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:19:53 --> Undefined variable $tenderId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 42.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenderId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(147): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:20:39 --> Undefined variable $tenderId
+in APPPATH\Controllers\Payments.php on line 98.
+ 1 APPPATH\Controllers\Payments.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenderId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Payments.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:21:03 --> Undefined variable $tenderId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 42.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenderId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(148): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:21:54 --> Undefined variable $TId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 42.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(147): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-18', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 14:26:20 --> Undefined variable $TId
+in APPPATH\Views\sys\Payments\createLetterofBbond.php on line 42.
+ 1 APPPATH\Views\sys\Payments\createLetterofBbond.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\createLetterofBbond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/createLetterofBbond', [], true)
+ 5 APPPATH\Controllers\Payments.php(147): view('sys/Payments/createLetterofBbond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond('3', '1', '2024-04-17', 'Release Bid Bond')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 15:03:25 --> Undefined variable $useremail
+in APPPATH\Controllers\Payments.php on line 115.
+ 1 APPPATH\Controllers\Payments.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $useremail', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Payments.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->createLetterofBbond()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 16:44:03 --> Call to undefined method App\Models\PAnalysisMarksModel::GetBbondDetails
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Payments.php(190): CodeIgniter\Model->__call('GetBbondDetails', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 16:44:26 --> Undefined array key "business_name"
+in APPPATH\Views\sys\Payments\BidBond.php on line 106.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "business_name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 106)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(195): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-02 16:45:53 --> Undefined array key "BEnd"
+in APPPATH\Views\sys\Payments\BidBond.php on line 107.
+ 1 APPPATH\Views\sys\Payments\BidBond.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BEnd"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php', 107)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\BidBond.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/BidBond', [], true)
+ 5 APPPATH\Controllers\Payments.php(195): view('sys/Payments/BidBond', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->BidBond()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

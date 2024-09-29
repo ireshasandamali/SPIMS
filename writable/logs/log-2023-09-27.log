@@ -1,0 +1,23 @@
+CRITICAL - 2023-09-27 14:45:47 --> Undefined array key "RefNumber"
+in APPPATH\Views\sys\bidAnnounce\view.php on line 85.
+ 1 APPPATH\Views\sys\bidAnnounce\view.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RefNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\bidAnnounce\\view.php', 85)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\bidAnnounce\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/bidAnnounce/view', [], true)
+ 5 APPPATH\Controllers\BIDAnnounce.php(70): view('sys/bidAnnounce/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 15:10:12 --> Class "App\Controllers\InvitationModel" not found
+in APPPATH\Controllers\BIDAnnounce.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->view()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 15:17:01 --> Class "App\Controllers\InvitationModel" not found
+in APPPATH\Controllers\BIDAnnounce.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->notice()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

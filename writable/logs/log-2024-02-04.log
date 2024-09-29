@@ -1,0 +1,622 @@
+CRITICAL - 2024-02-04 03:45:30 --> Class "App\Controllers\SPriceScheduleModel" not found
+in APPPATH\Controllers\BidEvaluation.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 03:46:51 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 18.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(103): view('sys/BidEvaluation/TECEvaluation')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 03:48:11 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 18.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(103): view('sys/BidEvaluation/TECEvaluation')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 03:51:26 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 18.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(103): view('sys/BidEvaluation/TECEvaluation')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 03:54:00 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 18.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(104): view('sys/BidEvaluation/TECEvaluation')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 03:54:08 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 18.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(104): view('sys/BidEvaluation/TECEvaluation')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:09:04 --> Undefined variable $resultB
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:09:41 --> Undefined variable $resultP
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:12:56 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:16:26 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 46.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:25:59 --> Undefined variable $list
+in APPPATH\Views\sys\submitedBid\OpenedBid.php on line 65.
+ 1 APPPATH\Views\sys\submitedBid\OpenedBid.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBid.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedBid', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(54): view('sys/SubmitedBid/OpenedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBid('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:27:44 --> Undefined variable $listP
+in APPPATH\Views\sys\submitedBid\ViewBidders.php on line 37.
+ 1 APPPATH\Views\sys\submitedBid\ViewBidders.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBidders.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBidders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/ViewBidders', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(67): view('sys/SubmitedBid/ViewBidders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->ViewBidders('4', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:27:44 --> Undefined variable $listP
+in APPPATH\Views\sys\submitedBid\ViewBidders.php on line 37.
+ 1 APPPATH\Views\sys\submitedBid\ViewBidders.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBidders.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBidders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/ViewBidders', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(67): view('sys/SubmitedBid/ViewBidders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->ViewBidders('4', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:30:18 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:30:26 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:32:46 --> Undefined variable $resultP
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 46.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:34:30 --> Undefined variable $resultP
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 46.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:39:49 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 46.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:39:58 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 46.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:42:22 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:42:56 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:50:28 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:52:17 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:54:03 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:54:09 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 04:54:38 --> Undefined array key "IFBId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 45.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IFBId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 05:06:33 --> mysqli_sql_exception: Unknown column 'i.Purpose' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\AssignCommitteeModel.php(19): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(81): App\Models\AssignCommitteeModel->joincommitteeBidderDetailsforViewBidders('14', NULL, NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-04 05:06:33 --> Unknown column 'i.Purpose' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE i.Purpose =\'TEC\' AND i.UserId=\'14\' AND i.AnnounceId=\'\' AND i.TenderId=\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE i.Purpose =\'TEC\' AND i.UserId=\'14\' AND i.AnnounceId=\'\' AND i.TenderId=\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE i.Purpose =\'TEC\' AND i.UserId=\'14\' AND i.AnnounceId=\'\' AND i.TenderId=\'\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE i.Purpose =\'TEC\' AND i.UserId=\'14\' AND i.AnnounceId=\'\' AND i.TenderId=\'\'')
+ 5 APPPATH\Models\AssignCommitteeModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(81): App\Models\AssignCommitteeModel->joincommitteeBidderDetailsforViewBidders('14', null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 05:19:10 --> Class "App\Controllers\InvitationModel" not found
+in APPPATH\Controllers\BidEvaluation.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 05:19:58 --> Cannot use App\Models\SPriceScheduleModel as SPriceScheduleModel because the name is already in use
+in APPPATH\Controllers\BidEvaluation.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 05:20:17 --> Cannot use App\Models\SPriceScheduleModel as SPriceScheduleModel because the name is already in use
+in APPPATH\Controllers\BidEvaluation.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 05:20:36 --> Undefined variable $listB
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 18.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(112): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 10:40:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\AssignCommitteeModel.php(19): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(79): App\Models\AssignCommitteeModel->joincommitteeBidderDetailsforViewBidders('14', NULL)
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-04 10:40:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE c.Purpose =\'TEC\' AND c.UserId=\'14\' AND c.PNumber=  ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE c.Purpose =\'TEC\' AND c.UserId=\'14\' AND c.PNumber=  ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE c.Purpose =\'TEC\' AND c.UserId=\'14\' AND c.PNumber=  ')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM Committee c
+        INNER JOIN SPriceSchedule i ON i.TenderId = c.PNumber       
+        INNER JOIN registeredsuppliers r ON i.UserId = r.UserId        
+        INNER JOIN User u ON i.UserId = u.UserId WHERE c.Purpose =\'TEC\' AND c.UserId=\'14\' AND c.PNumber=  ')
+ 5 APPPATH\Models\AssignCommitteeModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(79): App\Models\AssignCommitteeModel->joincommitteeBidderDetailsforViewBidders('14', null)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:21:57 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:22:05 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:22:54 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:23:07 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:23:48 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:29:45 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:32:12 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(83): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:56:45 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 52.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:59:06 --> Undefined array key "userId"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 48.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(84): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:28:50 --> Undefined variable $listC
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 305.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listC', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 305)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(106): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('14', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:28:51 --> Undefined variable $listC
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 305.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listC', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 305)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(106): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('14', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 13:57:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 1 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-04 13:57:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'07\', \'2024-02-22T19:26\', \'TEC\', \'3\', ())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'07\', \'2024-02-22T19:26\', \'TEC\', \'3\', ())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'07\', \'2024-02-22T19:26\', \'TEC\', \'3\', ())')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :EmpId[]:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 13:59:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 1 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-04 13:59:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'49\', \'Purchas of Stationery Items\', \'ghfhgf\', \'fsf\', \'07\', \'2024-02-06T19:28\', \'TEC\', \'1\', ())', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'49\', \'Purchas of Stationery Items\', \'ghfhgf\', \'fsf\', \'07\', \'2024-02-06T19:28\', \'TEC\', \'1\', ())')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'49\', \'Purchas of Stationery Items\', \'ghfhgf\', \'fsf\', \'07\', \'2024-02-06T19:28\', \'TEC\', \'1\', ())')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :EmpId[]:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 15:03:39 --> Cannot redeclare App\Controllers\BidEvaluation::getDescription()
+in APPPATH\Controllers\BidEvaluation.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 15:03:59 --> Cannot redeclare App\Controllers\BidEvaluation::getDescription()
+in APPPATH\Controllers\BidEvaluation.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 15:18:18 --> Cannot redeclare App\Controllers\BidEvaluation::getDescription()
+in APPPATH\Controllers\BidEvaluation.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 17:06:40 --> Undefined variable $data
+in APPPATH\Controllers\Employee.php on line 122.
+ 1 APPPATH\Controllers\Employee.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 17:15:19 --> Undefined variable $data
+in APPPATH\Controllers\Employee.php on line 118.
+ 1 APPPATH\Controllers\Employee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 17:16:00 --> Undefined variable $list
+in APPPATH\Views\sys\employee\view.php on line 136.
+ 1 APPPATH\Views\sys\employee\view.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 136)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(119): view('sys/employee/view', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 17:17:23 --> Undefined variable $list
+in APPPATH\Views\sys\employee\view.php on line 136.
+ 1 APPPATH\Views\sys\employee\view.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 136)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(121): view('sys/employee/view', [])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

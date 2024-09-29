@@ -1,0 +1,32 @@
+CRITICAL - 2024-05-12 17:14:46 --> Undefined array key "Qty"
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 157.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qty"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(189): view('sys/itemrequest/reqItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-12 17:17:12 --> Undefined array key 0
+in APPPATH\Controllers\ItemRequest.php on line 444.
+ 1 APPPATH\Controllers\ItemRequest.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getIteminventory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-12 17:20:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 APPPATH\Controllers\ItemRequest.php(433): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 433)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-12 17:21:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 433.
+ 1 APPPATH\Controllers\ItemRequest.php(433): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 433)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemId()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

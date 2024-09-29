@@ -1,0 +1,65 @@
+CRITICAL - 2023-10-25 07:07:23 --> Undefined variable $userid
+in APPPATH\Controllers\Web.php on line 122.
+ 1 APPPATH\Controllers\Web.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 07:08:55 --> Undefined variable $UsersId
+in APPPATH\Controllers\Web.php on line 125.
+ 1 APPPATH\Controllers\Web.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UsersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 07:13:54 --> Undefined variable $UsersId
+in APPPATH\Controllers\Web.php on line 125.
+ 1 APPPATH\Controllers\Web.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UsersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 08:35:31 --> Undefined array key "id"
+in APPPATH\Views\sys\tender\addItem.php on line 57.
+ 1 APPPATH\Views\sys\tender\addItem.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(109): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 08:35:31 --> Undefined array key "id"
+in APPPATH\Views\sys\tender\addItem.php on line 57.
+ 1 APPPATH\Views\sys\tender\addItem.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(109): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 09:56:44 --> Undefined array key "id"
+in APPPATH\Views\sys\tender\addItem.php on line 57.
+ 1 APPPATH\Views\sys\tender\addItem.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(109): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 09:56:44 --> Undefined array key "id"
+in APPPATH\Views\sys\tender\addItem.php on line 57.
+ 1 APPPATH\Views\sys\tender\addItem.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(109): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

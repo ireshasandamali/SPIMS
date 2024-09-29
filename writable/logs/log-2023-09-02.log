@@ -1,0 +1,33 @@
+CRITICAL - 2023-09-02 09:10:24 --> Undefined array key "District"
+in APPPATH\Views\sys\employee\view.php on line 83.
+ 1 APPPATH\Views\sys\employee\view.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "District"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(66): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-02 09:12:01 --> Undefined array key "District"
+in APPPATH\Views\sys\employee\view.php on line 83.
+ 1 APPPATH\Views\sys\employee\view.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "District"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(66): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-02 09:14:19 --> Undefined array key "District"
+in APPPATH\Views\sys\employee\view.php on line 93.
+ 1 APPPATH\Views\sys\employee\view.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "District"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 93)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(66): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

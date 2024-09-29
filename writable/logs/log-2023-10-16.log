@@ -1,0 +1,23 @@
+CRITICAL - 2023-10-16 14:40:23 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 16:29:04 --> Undefined variable $UsersId
+in APPPATH\Controllers\Employee.php on line 58.
+ 1 APPPATH\Controllers\Employee.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UsersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 16:29:04 --> Undefined variable $UsersId
+in APPPATH\Controllers\Employee.php on line 58.
+ 1 APPPATH\Controllers\Employee.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UsersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,50 @@
+CRITICAL - 2023-12-08 14:03:10 --> Undefined variable $result
+in APPPATH\Controllers\Web.php on line 57.
+ 1 APPPATH\Controllers\Web.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 15:16:32 --> Undefined variable $result
+in APPPATH\Controllers\Web.php on line 57.
+ 1 APPPATH\Controllers\Web.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 15:38:02 --> Undefined variable $result
+in APPPATH\Controllers\Web.php on line 57.
+ 1 APPPATH\Controllers\Web.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 15:38:02 --> Undefined variable $result
+in APPPATH\Controllers\Web.php on line 57.
+ 1 APPPATH\Controllers\Web.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 16:01:26 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\sys\invitation\add.php on line 25.
+ 1 APPPATH\Views\sys\invitation\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(53): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 16:01:28 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\sys\invitation\add.php on line 25.
+ 1 APPPATH\Views\sys\invitation\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\invitation\\add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/invitation/add', [], true)
+ 5 APPPATH\Controllers\Invitation.php(53): view('sys/invitation/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Invitation->add('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invitation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

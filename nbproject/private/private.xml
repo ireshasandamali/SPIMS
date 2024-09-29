@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>app/Models/InvitationModel.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>86</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>app/Views/sys/procurementPlan/viewPro.php</url>
+            <bookmark id="2">
+                <name/>
+                <line>115</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Views/sys/ProcurementRequestItemList/viewmore.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Views/sys/inventory/viewmore.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Controllers/Inventory.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Views/sys/ProcurementRequestItemList/viewhistory.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Models/ItemcategoryModel.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Controllers/ItemRequest.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Controllers/ProcurementRequestItemList.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Views/sys/employee/add.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Controllers/Invitation.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Views/sys/inventory/view.php</file>
+            <file>file:/C:/xampp/htdocs/IPMS/app/Views/sys/employee/edit.php</file>
+        </group>
+    </open-files>
+</project-private>

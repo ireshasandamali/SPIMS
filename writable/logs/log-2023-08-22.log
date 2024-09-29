@@ -1,0 +1,18 @@
+CRITICAL - 2023-08-22 16:24:44 --> syntax error, unexpected identifier "rel", expecting ")"
+in APPPATH\Views\sys\login.php on line 11.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/login', [], true)
+ 3 APPPATH\Controllers\Sys.php(9): view('sys/login')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 16:57:26 --> syntax error, unexpected token "public", expecting ")"
+in APPPATH\Views\sys\dashboard.php on line 1168.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/dashboard', [], true)
+ 3 APPPATH\Controllers\Sys.php(13): view('sys/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

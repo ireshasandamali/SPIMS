@@ -1,0 +1,41 @@
+CRITICAL - 2023-12-06 17:30:31 --> Call to undefined function set_value()
+in APPPATH\Views\web\viewprocurement.php on line 203.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewprocurement', [], true)
+ 4 APPPATH\Controllers\Web.php(61): view('web/viewprocurement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 17:47:49 --> Undefined array key "ItemName"
+in APPPATH\Views\web\viewprocurement.php on line 161.
+ 1 APPPATH\Views\web\viewprocurement.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewprocurement.php', 161)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewprocurement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewprocurement', [], true)
+ 5 APPPATH\Controllers\Web.php(61): view('web/viewprocurement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 17:49:19 --> Undefined variable $PId
+in APPPATH\Controllers\Web.php on line 68.
+ 1 APPPATH\Controllers\Web.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 17:52:12 --> Undefined variable $PId
+in APPPATH\Controllers\Web.php on line 68.
+ 1 APPPATH\Controllers\Web.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 17:52:56 --> Too few arguments to function App\Controllers\Web::viewprocurement(), 0 passed in C:\xampp\htdocs\IPMS\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Web.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewprocurement()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

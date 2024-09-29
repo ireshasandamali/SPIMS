@@ -1,0 +1,24 @@
+CRITICAL - 2023-09-01 16:48:43 --> Call to undefined function App\Controllers\index()
+in APPPATH\Controllers\Web.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 16:54:35 --> Invalid file: "index().php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index().php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index()', [], true)
+ 3 APPPATH\Controllers\Web.php(11): view('index()')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 18:05:10 --> Invalid file: "index().php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index().php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index()', [], true)
+ 3 APPPATH\Controllers\Web.php(11): view('index()')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,2163 @@
+CRITICAL - 2024-03-21 00:17:00 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\SubmitedBid.php(46): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpeningBid()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 00:18:32 --> Undefined array key 0
+in APPPATH\Views\sys\submitedBid\OpenedTender.php on line 28.
+ 1 APPPATH\Views\sys\submitedBid\OpenedTender.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedTender.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedTender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedTender', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(182): view('sys/SubmitedBid/OpenedTender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('1', '3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:03:22 --> syntax error, unexpected token ";"
+in APPPATH\Views\web\viewdetailedBid.php on line 215.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 3 APPPATH\Controllers\Web.php(183): view('web/viewdetailedBid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('1', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 00:55:10 --> Undefined variable $price
+in APPPATH\Controllers\Web.php on line 594.
+ 1 APPPATH\Controllers\Web.php(594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 594)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 00:56:31 --> Invalid file: "web/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/header.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/header', [], true)
+ 3 APPPATH\Controllers\Web.php(602): view('web/header')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 00:56:44 --> Invalid file: "web/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/header.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/header', [], true)
+ 3 APPPATH\Controllers\Web.php(602): view('web/header')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 00:58:48 --> Undefined variable $listP
+in APPPATH\Views\web\edittender.php on line 128.
+ 1 APPPATH\Views\web\edittender.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 128)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(602): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 01:00:02 --> Undefined variable $IFBId
+in APPPATH\Controllers\Web.php on line 605.
+ 1 APPPATH\Controllers\Web.php(605): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $IFBId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 605)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 01:01:20 --> Undefined variable $employee
+in APPPATH\Views\web\edittender.php on line 222.
+ 1 APPPATH\Views\web\edittender.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(616): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 01:06:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:
+ LIMIT 1' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(598): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 01:06:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Web.php(598): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 01:11:42 --> Invalid file: "sys/menu_nonregisteredsuppliers.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_nonregisteredsuppliers.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_nonregisteredsuppliers', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(116): view('sys/menu_nonregisteredsuppliers')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 01:11:45 --> Invalid file: "sys/menu_nonregisteredsuppliers.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_nonregisteredsuppliers.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_nonregisteredsuppliers', [], true)
+ 3 APPPATH\Controllers\SubmitedBid.php(181): view('sys/menu_nonregisteredsuppliers')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('1', '3', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 01:11:45 --> Invalid file: "sys/menu_nonregisteredsuppliers.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_nonregisteredsuppliers.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_nonregisteredsuppliers', [], true)
+ 3 APPPATH\Controllers\SubmitedBid.php(181): view('sys/menu_nonregisteredsuppliers')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('1', '3', 'assets', 'img', 'messages-1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 01:56:51 --> Undefined variable $ContractValue
+in APPPATH\Views\sys\tender\TenderProgress.php on line 139.
+ 1 APPPATH\Views\sys\tender\TenderProgress.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ContractValue', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php', 139)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\TenderProgress.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/TenderProgress', [], true)
+ 5 APPPATH\Controllers\Tender.php(910): view('sys/tender/TenderProgress', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->TenderProgress()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 03:12:56 --> Cannot redeclare App\Models\TecAnalysisMarksModel::GetrejectBidders()
+in APPPATH\Models\TecAnalysisMarksModel.php on line 68.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-03-21 03:15:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:15:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:16:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:16:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:17:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:17:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:17:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:17:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:17:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:17:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:19:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:19:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:20:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:20:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:21:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(70): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(70): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:21:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(70): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:21:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(70): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:22:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(70): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:22:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(70): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:36:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(71): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:36:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'marks = 0' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `tecanalysismarks` 
+        WHERE TenderId = \'4\'
+        marks = 0')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(71): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(485): App\Models\TecAnalysisMarksModel->GetrejectBidders('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 03:37:20 --> Call to undefined method App\Models\TecAnalysisMarksModel::GetrejectBiddersl
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\BidEvaluation.php(491): CodeIgniter\Model->__call('GetrejectBiddersl', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 03:38:03 --> Undefined variable $listrejected
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 345.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listrejected', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 345)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(538): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 03:38:04 --> Undefined variable $listrejected
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 345.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listrejected', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 345)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(538): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', '7', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:39:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(163): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:39:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(163): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:41:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(163): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:41:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(163): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:41:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(163): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:41:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\'  GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(163): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 03:43:54 --> Call to undefined method App\Models\TecAnalysisMarksModel::GetAcceptedBidderlist
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\BidEvaluation.php(486): CodeIgniter\Model->__call('GetAcceptedBidderlist', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:44:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(147): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:44:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(147): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:46:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(148): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:46:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(148): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:47:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(148): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:47:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+        AND  tecanalysismarks.TenderId=\'4\' 
+        GROUP BY TenderId,Itemid,SpecId,VendorId')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(148): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 03:48:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\IPMS\app\Models\TecAnalysisMarksModel.php(148): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 03:48:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+       ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+       ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+       ')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tecanalysismarks` 
+        WHERE tecanalysismarks.marks=1 AND  tecanalysismarks.TenderId=\'4\' 
+        AND VendorId NOT IN(SELECT VendorId FROM `tecanalysismarks` WHERE tecanalysismarks.marks=0 
+       ')
+ 5 APPPATH\Models\TecAnalysisMarksModel.php(148): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(486): App\Models\TecAnalysisMarksModel->GetAcceptedBidderlist('4')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 04:10:19 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\xampp\htdocs\IPMS\app\Controllers\BIDAnnounce.php on line 172
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\BIDAnnounce.php(172): CodeIgniter\HTTP\RedirectResponse->to('SubmitedBid/OpenedBidreport', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->changeNCBstatus('1', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 04:11:05 --> Undefined variable $AId
+in APPPATH\Controllers\BIDAnnounce.php on line 168.
+ 1 APPPATH\Controllers\BIDAnnounce.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BIDAnnounce.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->changeNCBstatus('1', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 04:11:20 --> Undefined variable $data
+in APPPATH\Controllers\BIDAnnounce.php on line 172.
+ 1 APPPATH\Controllers\BIDAnnounce.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BIDAnnounce.php', 172)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BIDAnnounce->changeNCBstatus('1', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BIDAnnounce))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 04:25:56 --> Undefined array key "ItemName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 352.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 352)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(539): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 04:26:38 --> Undefined array key "ItemName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 354.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 354)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(539): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 04:30:26 --> Undefined array key "ItemName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 354.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 354)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(539): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 05:12:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:
+ LIMIT 1' at line 3 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(598): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 05:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `SPriceSchedule`
+WHERE 1 = :1:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Web.php(598): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:13:33 --> Undefined array key 0
+in APPPATH\Views\sys\submitedBid\OpenedTender.php on line 28.
+ 1 APPPATH\Views\sys\submitedBid\OpenedTender.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedTender.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedTender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedTender', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(182): view('sys/SubmitedBid/OpenedTender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('1', '3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:15:29 --> Undefined variable $UserId
+in APPPATH\Controllers\Web.php on line 632.
+ 1 APPPATH\Controllers\Web.php(632): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 632)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:15:59 --> Undefined array key "Description"
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:17:21 --> Undefined array key "Description"
+in APPPATH\Views\web\edittender.php on line 160.
+ 1 APPPATH\Views\web\edittender.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 160)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:18:05 --> Undefined array key "Description"
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:18:09 --> Undefined array key "Description"
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:19:22 --> Undefined array key "Location"
+in APPPATH\Views\web\edittender.php on line 171.
+ 1 APPPATH\Views\web\edittender.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Location"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 171)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:20:57 --> Undefined array key "ItemName"
+in APPPATH\Views\web\edittender.php on line 210.
+ 1 APPPATH\Views\web\edittender.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 210)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:38:01 --> Cannot redeclare App\Models\SPriceScheduleModel::GetPriseSchedule()
+in APPPATH\Models\SPriceScheduleModel.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 05:41:01 --> Undefined array key "ItemName"
+in APPPATH\Views\web\edittender.php on line 221.
+ 1 APPPATH\Views\web\edittender.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 221)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:55:30 --> Undefined variable $price
+in APPPATH\Views\web\edittender.php on line 222.
+ 1 APPPATH\Views\web\edittender.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:59:04 --> Undefined variable $price
+in APPPATH\Views\web\edittender.php on line 222.
+ 1 APPPATH\Views\web\edittender.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 05:59:37 --> Undefined array key "TId"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:01:47 --> finfo_file(C:\xampp\tmp\php499C.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\xampp\\tmp\\php499C.tmp): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\IPMS\\system\\Files\\File.php', 115)
+ 2 SYSTEMPATH\Files\File.php(115): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\php499C.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(127): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH\Controllers\Web.php(1233): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_nonregisteredSupplier()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:02:25 --> finfo_file(C:\xampp\tmp\phpDD43.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\xampp\\tmp\\phpDD43.tmp): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\IPMS\\system\\Files\\File.php', 115)
+ 2 SYSTEMPATH\Files\File.php(115): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\phpDD43.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(127): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH\Controllers\Web.php(1233): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_nonregisteredSupplier()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:02:29 --> Undefined array key "TId"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:02:31 --> Undefined array key "TId"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(654): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:09:36 --> Undefined array key "TId"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:14:00 --> Undefined array key "TId"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:18:18 --> Undefined array key "specid"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "specid"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:20:32 --> Undefined array key "specId"
+in APPPATH\Views\web\edittender.php on line 273.
+ 1 APPPATH\Views\web\edittender.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "specId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:44:06 --> Undefined array key "deliverydate"
+in APPPATH\Views\web\edittender.php on line 326.
+ 1 APPPATH\Views\web\edittender.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deliverydate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 326)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:44:22 --> Undefined array key "deliverydate"
+in APPPATH\Views\web\edittender.php on line 326.
+ 1 APPPATH\Views\web\edittender.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deliverydate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 326)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:44:24 --> Undefined array key "deliverydate"
+in APPPATH\Views\web\edittender.php on line 326.
+ 1 APPPATH\Views\web\edittender.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deliverydate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 326)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:45:00 --> Undefined array key "deliverydate"
+in APPPATH\Views\web\edittender.php on line 326.
+ 1 APPPATH\Views\web\edittender.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deliverydate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 326)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:46:08 --> Undefined array key "deliverydate"
+in APPPATH\Views\web\edittender.php on line 326.
+ 1 APPPATH\Views\web\edittender.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deliverydate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 326)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:53:27 --> Undefined array key 0
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:54:49 --> Undefined variable $resultP
+in APPPATH\Views\web\edittender.php on line 128.
+ 1 APPPATH\Views\web\edittender.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 128)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:56:35 --> Undefined array key 0
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 06:57:08 --> Undefined array key 0
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(655): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 06:59:08 --> mysqli_sql_exception: Unknown column 'titem.Itemid' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\SPriceScheduleModel.php(37): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(631): App\Models\SPriceScheduleModel->GetPriseScheduleDetails('1')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 06:59:08 --> Unknown column 'titem.Itemid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'')
+ 5 APPPATH\Models\SPriceScheduleModel.php(37): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Web.php(631): App\Models\SPriceScheduleModel->GetPriseScheduleDetails('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 07:02:05 --> mysqli_sql_exception: Unknown column 'titem.Itemid' in 'on clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\SPriceScheduleModel.php(37): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(631): App\Models\SPriceScheduleModel->GetPriseScheduleDetails('1')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-21 07:02:05 --> Unknown column 'titem.Itemid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM `SPriceSchedule` 
+        LEFT JOIN titem ON titem.Itemid = SPriceSchedule.Item
+        WHERE SPriceSchedule.UserId = \'1\'')
+ 5 APPPATH\Models\SPriceScheduleModel.php(37): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Web.php(631): App\Models\SPriceScheduleModel->GetPriseScheduleDetails('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 07:03:21 --> Undefined variable $listtp
+in APPPATH\Views\web\edittender.php on line 128.
+ 1 APPPATH\Views\web\edittender.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listtp', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 128)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(656): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 07:04:02 --> Undefined array key "Description"
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(656): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 07:04:49 --> Undefined array key "Description"
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(657): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 07:08:11 --> Undefined array key "TName"
+in APPPATH\Views\web\edittender.php on line 130.
+ 1 APPPATH\Views\web\edittender.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 130)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(658): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 07:09:27 --> Undefined array key "BStart"
+in APPPATH\Views\web\edittender.php on line 148.
+ 1 APPPATH\Views\web\edittender.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BStart"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php', 148)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\edittender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/edittender', [], true)
+ 5 APPPATH\Controllers\Web.php(658): view('web/edittender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->edittender('1', '3', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 08:28:09 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Employee.php(362): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->adddesignation()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 08:28:15 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(538): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('4')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 08:28:15 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(538): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('assets', null, 'messages-1.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 08:28:18 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(116): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 09:20:56 --> Undefined variable $user_type
+in APPPATH\Controllers\Employee.php on line 371.
+ 1 APPPATH\Controllers\Employee.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_type', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 09:21:24 --> Undefined variable $data
+in APPPATH\Controllers\Employee.php on line 372.
+ 1 APPPATH\Controllers\Employee.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 09:37:06 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 09:37:19 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 15:10:38 --> Undefined array key "BStartDate"
+in APPPATH\Views\web\viewdetailedBid.php on line 179.
+ 1 APPPATH\Views\web\viewdetailedBid.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BStartDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 179)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(183): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('1', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:17:08 --> Undefined variable $specification
+in APPPATH\Controllers\Web.php on line 181.
+ 1 APPPATH\Controllers\Web.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $specification', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Web.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('1', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 10:20:29 --> Class "App\Controllers\ItemcategoryModel" not found
+in APPPATH\Controllers\Web.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 10:20:43 --> Class "App\Controllers\ItemcategoryModel" not found
+in APPPATH\Controllers\Web.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 10:20:44 --> Class "App\Controllers\ItemcategoryModel" not found
+in APPPATH\Controllers\Web.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 10:34:05 --> Undefined constant "App\Controllers\data"
+in APPPATH\Controllers\Web.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 10:34:41 --> Undefined variable $annonce
+in APPPATH\Views\web\index.php on line 427.
+ 1 APPPATH\Views\web\index.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $annonce', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\index.php', 427)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/index', [], true)
+ 5 APPPATH\Controllers\Web.php(86): view('web/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 11:15:50 --> Undefined array key "ICategory"
+in APPPATH\Views\web\WebRequest.php on line 154.
+ 1 APPPATH\Views\web\WebRequest.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ICategory"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\WebRequest.php', 154)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\WebRequest.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/WebRequest', [], true)
+ 5 APPPATH\Controllers\Web.php(1124): view('web/WebRequest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->WebRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 11:28:01 --> Undefined array key "ICategory"
+in APPPATH\Views\web\WebRequest.php on line 154.
+ 1 APPPATH\Views\web\WebRequest.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ICategory"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\WebRequest.php', 154)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\WebRequest.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/WebRequest', [], true)
+ 5 APPPATH\Controllers\Web.php(1124): view('web/WebRequest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->WebRequest()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:20:23 --> Call to a member function getQuery() on null
+in APPPATH\Controllers\ItemRequest.php on line 321.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('10')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:21:11 --> Call to a member function getQuery() on null
+in APPPATH\Controllers\ItemRequest.php on line 322.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('10')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 12:26:53 --> mysqli_sql_exception: Unknown column 'requestId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\IPMS\app\Controllers\ItemRequest.php(327): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\ItemRequest->view()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 12:26:53 --> Unknown column 'requestId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ReqItem`
+WHERE `requestId` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ReqItem`
+WHERE `requestId` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ReqItem`
+WHERE `requestId` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ReqItem`
+WHERE `requestId` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ItemRequest.php(327): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:30:16 --> Undefined variable $ItemName_list
+in APPPATH\Views\sys\itemrequest\view.php on line 48.
+ 1 APPPATH\Views\sys\itemrequest\view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemName_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(335): view('sys/itemRequest/view', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(238): App\Controllers\ItemRequest->view()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->removeItem('28')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:30:17 --> Undefined variable $ItemName_list
+in APPPATH\Views\sys\itemrequest\view.php on line 48.
+ 1 APPPATH\Views\sys\itemrequest\view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemName_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(335): view('sys/itemRequest/view', [...])
+ 6 APPPATH\Controllers\ItemRequest.php(238): App\Controllers\ItemRequest->view()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->removeItem('assets', 'img', 'messages-1.jpg')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:30:28 --> Undefined variable $ItemName_list
+in APPPATH\Views\sys\itemrequest\view.php on line 48.
+ 1 APPPATH\Views\sys\itemrequest\view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemName_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(335): view('sys/itemRequest/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:30:29 --> Undefined variable $ItemName_list
+in APPPATH\Views\sys\itemrequest\view.php on line 48.
+ 1 APPPATH\Views\sys\itemrequest\view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemName_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(335): view('sys/itemRequest/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:30:37 --> Undefined variable $ItemName_list
+in APPPATH\Views\sys\itemrequest\view.php on line 48.
+ 1 APPPATH\Views\sys\itemrequest\view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemName_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(335): view('sys/itemRequest/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 12:30:37 --> Undefined variable $ItemName_list
+in APPPATH\Views\sys\itemrequest\view.php on line 48.
+ 1 APPPATH\Views\sys\itemrequest\view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ItemName_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(335): view('sys/itemRequest/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 14:18:25 --> mysqli_sql_exception: Unknown column 'UserId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(128): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 14:18:25 --> Unknown column 'UserId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = :UserId:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\BidEvaluation.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 14:21:14 --> mysqli_sql_exception: Unknown column 'UserId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(129): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 14:21:14 --> Unknown column 'UserId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = :UserId:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\BidEvaluation.php(129): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 14:21:49 --> mysqli_sql_exception: Unknown column 'UserId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(129): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 14:21:49 --> Unknown column 'UserId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = :UserId:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\BidEvaluation.php(129): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-21 14:24:23 --> mysqli_sql_exception: Unknown column 'UserId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(129): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-21 14:24:23 --> Unknown column 'UserId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Committee`
+WHERE `UserId` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Committee`
+WHERE `UserId` = :UserId:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\BidEvaluation.php(129): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeetingPreliminary()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 14:59:18 --> Undefined variable $listr
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 93.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listr', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 93)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 14:59:18 --> Undefined variable $listr
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 93.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listr', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 93)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:01:28 --> Undefined variable $listItem
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 101.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listItem', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:01:29 --> Undefined variable $listItem
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 101.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listItem', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:02:23 --> Undefined variable $TECMarks
+in APPPATH\Controllers\BidEvaluation.php on line 640.
+ 1 APPPATH\Controllers\BidEvaluation.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TECMarks', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 640)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:03:28 --> Undefined variable $listT
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 109.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listT', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 109)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:03:28 --> Undefined variable $listrejected
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 184.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listrejected', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 184)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:04:23 --> Undefined variable $marks
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 121.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marks', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:04:23 --> Undefined variable $listrejected
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 184.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listrejected', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 184)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(647): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:07:33 --> Undefined variable $listz
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 139.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listz', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 139)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(657): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:07:33 --> Undefined variable $listk
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 249.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listk', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 249)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(657): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:10:11 --> Undefined variable $listk
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 249.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listk', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 249)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(657): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:10:11 --> Undefined variable $listk
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 249.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listk', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 249)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(657): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:10:58 --> Undefined variable $titem
+in APPPATH\Controllers\BidEvaluation.php on line 666.
+ 1 APPPATH\Controllers\BidEvaluation.php(666): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titem', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 666)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:11:53 --> Undefined variable $Dilivery
+in APPPATH\Controllers\BidEvaluation.php on line 669.
+ 1 APPPATH\Controllers\BidEvaluation.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Dilivery', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 669)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:12:34 --> Undefined array key "CompanyName"
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 49.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CompanyName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(697): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:38:01 --> Undefined variable $listk
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 199.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listk', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 199)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(650): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 15:38:01 --> Undefined variable $listk
+in APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php on line 199.
+ 1 APPPATH\Views\sys\BidEvaluation\TechnicalEvaluation.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listk', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php', 199)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TechnicalEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TechnicalEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(650): view('sys/BidEvaluation/TechnicalEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TechnicalEvaluation('assets', '11', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 16:22:03 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(826): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 16:23:18 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 16:23:26 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 16:23:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 16:25:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262160384 bytes)
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-21 16:41:54 --> Undefined variable $j
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 41.
+ 1 APPPATH\Views\sys\yearPlan\viewYearPlan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\yearPlan\\viewYearPlan.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\yearPlan\\viewYearPlan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/yearPlan/viewYearPlan', [], true)
+ 5 APPPATH\Controllers\YearPlan.php(36): view('sys/yearPlan/viewYearPlan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\YearPlan->viewYearPlan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\YearPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:43:20 --> Undefined array key "MNumber"
+in APPPATH\Views\sys\DOCEvaluation\DTECMeeting.php on line 48.
+ 1 APPPATH\Views\sys\DOCEvaluation\DTECMeeting.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\DOCEvaluation\\DTECMeeting.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\DOCEvaluation\\DTECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/DOCEvaluation/DTECMeeting', [], true)
+ 5 APPPATH\Controllers\DOCEvaluation.php(116): view('sys/DOCEvaluation/DTECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DOCEvaluation->DTECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DOCEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:43:52 --> Invalid file: "sys/DOCEvaluation/DTECreport.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/DOCEvaluation/DTECreport.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/DOCEvaluation/DTECreport', [], true)
+ 3 APPPATH\Controllers\DOCEvaluation.php(233): view('sys/DOCEvaluation/DTECreport', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DOCEvaluation->DTECreport()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DOCEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:44:22 --> Undefined array key "MNumber"
+in APPPATH\Views\sys\DOCEvaluation\DTECMeeting.php on line 48.
+ 1 APPPATH\Views\sys\DOCEvaluation\DTECMeeting.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\DOCEvaluation\\DTECMeeting.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\DOCEvaluation\\DTECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/DOCEvaluation/DTECMeeting', [], true)
+ 5 APPPATH\Controllers\DOCEvaluation.php(116): view('sys/DOCEvaluation/DTECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DOCEvaluation->DTECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DOCEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:54:34 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(68): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:57:43 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 110.
+ 1 APPPATH\Views\sys\tender\viewtender.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(312): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:58:02 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 110.
+ 1 APPPATH\Views\sys\tender\viewtender.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(312): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:58:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 37.
+ 1 APPPATH\Views\sys\tender\createSpec.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(261): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 17:58:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 37.
+ 1 APPPATH\Views\sys\tender\createSpec.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(261): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 18:10:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 37.
+ 1 APPPATH\Views\sys\tender\createSpec.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(261): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 18:11:16 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 110.
+ 1 APPPATH\Views\sys\tender\viewtender.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(312): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 18:11:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 37.
+ 1 APPPATH\Views\sys\tender\createSpec.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(261): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 18:12:56 --> Undefined variable $item
+in APPPATH\Controllers\Tender.php on line 958.
+ 1 APPPATH\Controllers\Tender.php(958): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 958)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->removespecItem('35')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 18:13:26 --> Undefined variable $result
+in APPPATH\Views\sys\tender\viewtender.php on line 110.
+ 1 APPPATH\Views\sys\tender\viewtender.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php', 110)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\viewtender.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/viewtender', [], true)
+ 5 APPPATH\Controllers\Tender.php(312): view('sys/tender/viewtender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->viewtender('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 18:13:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\createSpec.php on line 37.
+ 1 APPPATH\Views\sys\tender\createSpec.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\createSpec.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/createSpec', [], true)
+ 5 APPPATH\Controllers\Tender.php(261): view('sys/tender/createSpec', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->createSpec('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

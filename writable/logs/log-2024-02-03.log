@@ -1,0 +1,360 @@
+CRITICAL - 2024-02-03 03:06:38 --> Undefined array key "EmpID"
+in APPPATH\Views\sys\employee\view.php on line 115.
+ 1 APPPATH\Views\sys\employee\view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "EmpID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 115)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(112): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 05:08:36 --> Undefined variable $employee
+in APPPATH\Controllers\BidEvaluation.php on line 32.
+ 1 APPPATH\Controllers\BidEvaluation.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 05:09:57 --> Class "App\Controllers\AssignCommitteeModel" not found
+in APPPATH\Controllers\BidEvaluation.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 05:10:55 --> mysqli_sql_exception: Column 'assignTEC' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-03 05:10:55 --> Column 'assignTEC' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`assignTEC`, `PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `UserId`) VALUES (NULL, \'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`assignTEC`, `PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `UserId`) VALUES (NULL, \'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`assignTEC`, `PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `UserId`) VALUES (NULL, \'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`assignTEC`, `PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `UserId`) VALUES (:assignTEC:, :PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 05:31:57 --> mysqli_sql_exception: Column 'NPC' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-03 05:31:57 --> Column 'NPC' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, NULL, \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, NULL, \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, NULL, \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :assignTEC:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 05:33:59 --> mysqli_sql_exception: Column 'NPC' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-03 05:33:59 --> Column 'NPC' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, NULL, \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, NULL, \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'47\', \'Supply of 20 Nos. Water Boilers (20L), 20 Nos. Thermos Container (20L), 20 Nos. Electric Kettle (04L) for Special Task Force.\', NULL, \'fsf\', \'01\', \'2545\', NULL, NULL, \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :assignTEC:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 05:41:27 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\BidEvaluation.php on line 75.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/BidEvaluation/EvaluationCommittee', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/BidEvaluation/EvaluationCommittee')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/BidEvaluation/EvaluationCommittee')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 05:42:13 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(48): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 05:44:15 --> Invalid file: "BidEvaluation/EvaluationCommittee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('BidEvaluation/EvaluationCommittee.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('BidEvaluation/EvaluationCommittee', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(48): view('BidEvaluation/EvaluationCommittee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 05:51:18 --> Invalid file: "BidEvaluation/EvaluationCommittee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('BidEvaluation/EvaluationCommittee.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('BidEvaluation/EvaluationCommittee', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(48): view('BidEvaluation/EvaluationCommittee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 06:20:22 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-03 06:20:22 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'46\', \'purchase of 25 Nos. LED Monitors\', \'ghfhgf\', \'hfgh\', \'01\', \'2545\', \'PC\', (\'1\',\'3\'), \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'46\', \'purchase of 25 Nos. LED Monitors\', \'ghfhgf\', \'hfgh\', \'01\', \'2545\', \'PC\', (\'1\',\'3\'), \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'46\', \'purchase of 25 Nos. LED Monitors\', \'ghfhgf\', \'hfgh\', \'01\', \'2545\', \'PC\', (\'1\',\'3\'), \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :assignTEC:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(54): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 06:20:29 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-03 06:20:29 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'46\', \'purchase of 25 Nos. LED Monitors\', \'ghfhgf\', \'hfgh\', \'01\', \'2545\', \'PC\', (\'1\',\'3\'), \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'46\', \'purchase of 25 Nos. LED Monitors\', \'ghfhgf\', \'hfgh\', \'01\', \'2545\', \'PC\', (\'1\',\'3\'), \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (\'46\', \'purchase of 25 Nos. LED Monitors\', \'ghfhgf\', \'hfgh\', \'01\', \'2545\', \'PC\', (\'1\',\'3\'), \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `assignTEC`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :assignTEC:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(54): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 07:45:36 --> Undefined variable $id
+in APPPATH\Controllers\BidEvaluation.php on line 35.
+ 1 APPPATH\Controllers\BidEvaluation.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 08:34:25 --> mysqli_sql_exception: Unknown column 'specification.UserId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\SSpecificationModel.php(13): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\SubmitedBid.php(85): App\Models\SSpecificationModel->GetSpecDetails()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('4', '51', '39')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-03 08:34:25 --> Unknown column 'specification.UserId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'\'')
+ 5 APPPATH\Models\SSpecificationModel.php(13): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\SubmitedBid.php(85): App\Models\SSpecificationModel->GetSpecDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('4', '51', '39')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 08:35:04 --> mysqli_sql_exception: Unknown column 'specification.UserId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\SSpecificationModel.php(13): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\SubmitedBid.php(85): App\Models\SSpecificationModel->GetSpecDetails('39')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('4', '51', '39')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-03 08:35:04 --> Unknown column 'specification.UserId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'39\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'39\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'39\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * 
+        FROM `SSpecification` 
+        LEFT JOIN specification ON specification.IId = SSpecification.Item
+        LEFT JOIN titem ON titem.TItemid = SSpecification.Item
+        WHERE specification.UserId=\'39\'')
+ 5 APPPATH\Models\SSpecificationModel.php(13): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\SubmitedBid.php(85): App\Models\SSpecificationModel->GetSpecDetails('39')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedTender('4', '51', '39')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 11:02:08 --> Undefined array key "MNumber"
+in APPPATH\Views\sys\BidEvaluation\TECMeeting.php on line 41.
+ 1 APPPATH\Views\sys\BidEvaluation\TECMeeting.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "MNumber"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECMeeting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECMeeting', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(79): view('sys/BidEvaluation/TECMeeting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-03 11:27:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[]=session()->get('UserId')' at line 1 in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\AssignCommitteeModel.php(11): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(75): App\Models\AssignCommitteeModel->getAssignCommitteeDetails()
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-03 11:27:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[]=session()->get('UserId')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM Committee i  WHERE i.Purpose =\'TEC\' AND i.EmpId[]=session()->get(\'UserId\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM Committee i  WHERE i.Purpose =\'TEC\' AND i.EmpId[]=session()->get(\'UserId\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM Committee i  WHERE i.Purpose =\'TEC\' AND i.EmpId[]=session()->get(\'UserId\')')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM Committee i  WHERE i.Purpose =\'TEC\' AND i.EmpId[]=session()->get(\'UserId\')')
+ 5 APPPATH\Models\AssignCommitteeModel.php(11): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\BidEvaluation.php(75): App\Models\AssignCommitteeModel->getAssignCommitteeDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECMeeting()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-03 12:38:55 --> Invalid file: "sys/BidEvaluation/PCMeeting.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/BidEvaluation/PCMeeting.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/PCMeeting', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(92): view('sys/BidEvaluation/PCMeeting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->PCMeeting()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

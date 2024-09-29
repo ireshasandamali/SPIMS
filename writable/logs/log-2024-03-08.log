@@ -1,0 +1,605 @@
+CRITICAL - 2024-03-08 00:31:28 --> Cannot use App\Models\TenderModel as TenderModel because the name is already in use
+in APPPATH\Controllers\Procurement.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-08 00:34:24 --> Undefined array key "BStartDate"
+in APPPATH\Views\sys\Procurement\viewTenderapproval.php on line 140.
+ 1 APPPATH\Views\sys\Procurement\viewTenderapproval.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BStartDate"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Procurement\\viewTenderapproval.php', 140)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Procurement\\viewTenderapproval.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Procurement/viewTenderapproval', [], true)
+ 5 APPPATH\Controllers\Procurement.php(201): view('sys/Procurement/viewTenderapproval', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->viewTenderapproval('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-08 00:45:37 --> mysqli_sql_exception: Unknown table 'ipmsm.Committee' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\CommitteememberModel.php(22): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Procurement.php(162): App\Models\CommitteememberModel->getCommitteememberDete('51')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Procurement->viewTenderapproval('51')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-08 00:45:38 --> Unknown table 'ipmsm.Committee'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        LEFT JOIN employee e ON c.EmpId = e.id
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        LEFT JOIN employee e ON c.EmpId = e.id
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        LEFT JOIN employee e ON c.EmpId = e.id
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        LEFT JOIN employee e ON c.EmpId = e.id
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'')
+ 5 APPPATH\Models\CommitteememberModel.php(22): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Procurement.php(162): App\Models\CommitteememberModel->getCommitteememberDete('51')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->viewTenderapproval('51')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-08 00:47:09 --> mysqli_sql_exception: Unknown table 'ipmsm.Committee' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\CommitteememberModel.php(22): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Procurement.php(162): App\Models\CommitteememberModel->getCommitteememberDete('51')
+#6 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Procurement->viewTenderapproval('51')
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-08 00:47:09 --> Unknown table 'ipmsm.Committee'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT Committee.*
+        FROM CMember c
+        LEFT JOIN Committee i ON c.TMId = i.Committeeid
+        WHERE i.Purpose =\'TEC\' AND i.PNumber=\'51\'')
+ 5 APPPATH\Models\CommitteememberModel.php(22): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Procurement.php(162): App\Models\CommitteememberModel->getCommitteememberDete('51')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->viewTenderapproval('51')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 02:28:05 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\employee\updateProfile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/updateProfile', [], true)
+ 4 APPPATH\Controllers\Employee.php(136): view('sys/employee/updateProfile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->updateProfile('7')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 02:28:06 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\employee\updateProfile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/updateProfile', [], true)
+ 4 APPPATH\Controllers\Employee.php(136): view('sys/employee/updateProfile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->updateProfile('7', 'img', 'messages-1.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 02:29:42 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\employee\updateProfile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/updateProfile', [], true)
+ 4 APPPATH\Controllers\Employee.php(136): view('sys/employee/updateProfile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->updateProfile('7')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 02:29:42 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\employee\updateProfile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/updateProfile', [], true)
+ 4 APPPATH\Controllers\Employee.php(136): view('sys/employee/updateProfile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->updateProfile('7', 'img', 'messages-1.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 02:30:11 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\employee\updateProfile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/updateProfile', [], true)
+ 4 APPPATH\Controllers\Employee.php(136): view('sys/employee/updateProfile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->updateProfile('7')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 02:30:11 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\employee\updateProfile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/updateProfile', [], true)
+ 4 APPPATH\Controllers\Employee.php(136): view('sys/employee/updateProfile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->updateProfile('7', 'img', 'messages-1.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 04:09:24 --> Undefined array key "Unit_priceEV"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 415.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(415): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Unit_priceEV"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 415)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(520): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 04:51:03 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(727): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 04:57:44 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php on line 72.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSpecdetails.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSpecdetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSpecdetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(727): view('sys/BidEvaluation/viewSpecdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSpecdetails('1', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 05:22:11 --> Undefined variable $data
+in APPPATH\Controllers\User.php on line 108.
+ 1 APPPATH\Controllers\User.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\User.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 05:24:10 --> syntax error, unexpected identifier "validation", expecting ")"
+in APPPATH\Views\web\resetpassword.php on line 67.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 3 APPPATH\Controllers\User.php(107): view('web/resetpassword')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 05:53:43 --> Undefined constant "error"
+in APPPATH\Views\web\resetpassword.php on line 71.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 4 APPPATH\Controllers\User.php(107): view('web/resetpassword')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 06:06:09 --> Undefined constant "error"
+in APPPATH\Views\web\resetpassword.php on line 71.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 4 APPPATH\Controllers\User.php(107): view('web/resetpassword')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 06:06:28 --> Undefined constant "error"
+in APPPATH\Views\web\resetpassword.php on line 71.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 4 APPPATH\Controllers\User.php(107): view('web/resetpassword')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 06:08:17 --> Undefined constant "error"
+in APPPATH\Views\web\resetpassword.php on line 71.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 4 APPPATH\Controllers\User.php(108): view('web/resetpassword')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 06:08:29 --> Undefined constant "error"
+in APPPATH\Views\web\resetpassword.php on line 71.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 4 APPPATH\Controllers\User.php(108): view('web/resetpassword')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 06:58:25 --> Undefined constant "error"
+in APPPATH\Views\web\resetpassword.php on line 71.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/resetpassword', [], true)
+ 4 APPPATH\Controllers\User.php(108): view('web/resetpassword')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->resetpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 08:23:09 --> Undefined variable $data
+in APPPATH\Controllers\User.php on line 119.
+ 1 APPPATH\Controllers\User.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\User.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->sendResetLink()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:21:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:26:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:26:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:26:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:28:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:30:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:30:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(162): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:41:18 --> Invalid file: "sys/menu_nonregisteredsuppliers.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_nonregisteredsuppliers.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_nonregisteredsuppliers', [], true)
+ 3 APPPATH\Controllers\Sys.php(63): view('sys/menu_nonregisteredsuppliers')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 10:44:57 --> Invalid file: "sys/menu_nonregisteredsuppliers.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_nonregisteredsuppliers.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_nonregisteredsuppliers', [], true)
+ 3 APPPATH\Controllers\Sys.php(63): view('sys/menu_nonregisteredsuppliers')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:04:30 --> Undefined variable $resultf
+in APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php on line 142.
+ 1 APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultf', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/FinancialEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(662): view('sys/BidEvaluation/FinancialEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->FinancialEvaluation('assets', '7', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:11:53 --> Undefined variable $resultf
+in APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php on line 142.
+ 1 APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultf', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/FinancialEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(662): view('sys/BidEvaluation/FinancialEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->FinancialEvaluation('assets', '7', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:20:53 --> Undefined variable $resultf
+in APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php on line 142.
+ 1 APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultf', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/FinancialEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(662): view('sys/BidEvaluation/FinancialEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->FinancialEvaluation('assets', '7', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:21:01 --> Undefined variable $listf
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 34.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listf', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(765): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:21:01 --> Undefined variable $listf
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 34.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listf', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(765): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:24:16 --> Undefined array key "Sample"
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 78.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Sample"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(757): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:24:18 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 105.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 105)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(757): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:24:59 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 104.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 104)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(757): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:24:59 --> Undefined variable $results
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 104.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 104)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(757): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:28:22 --> Undefined variable $resultf
+in APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php on line 142.
+ 1 APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultf', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php', 142)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/FinancialEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(654): view('sys/BidEvaluation/FinancialEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->FinancialEvaluation('assets', '7', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 11:36:27 --> Undefined array key "Sample"
+in APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php on line 78.
+ 1 APPPATH\Views\sys\BidEvaluation\viewSriseSchuduledetails.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Sample"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\viewSriseSchuduledetails.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/viewSriseSchuduledetails', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(759): view('sys/BidEvaluation/viewSriseSchuduledetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->viewSriseSchuduledetails('3', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:46:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BidEvaluation.php on line 668.
+ 1 APPPATH\Controllers\BidEvaluation.php(668): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 668)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:47:20 --> Uninitialized string offset 51
+in APPPATH\Controllers\BidEvaluation.php on line 668.
+ 1 APPPATH\Controllers\BidEvaluation.php(668): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 668)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:49:41 --> Uninitialized string offset 51
+in APPPATH\Controllers\BidEvaluation.php on line 668.
+ 1 APPPATH\Controllers\BidEvaluation.php(668): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 668)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:51:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BidEvaluation.php on line 668.
+ 1 APPPATH\Controllers\BidEvaluation.php(668): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 668)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:01:23 --> Undefined array key 51
+in APPPATH\Controllers\BidEvaluation.php on line 672.
+ 1 APPPATH\Controllers\BidEvaluation.php(672): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 672)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:03:25 --> Undefined array key 51
+in APPPATH\Controllers\BidEvaluation.php on line 672.
+ 1 APPPATH\Controllers\BidEvaluation.php(672): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 672)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:04:41 --> Undefined array key 51
+in APPPATH\Controllers\BidEvaluation.php on line 672.
+ 1 APPPATH\Controllers\BidEvaluation.php(672): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 672)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:07:05 --> Undefined array key 51
+in APPPATH\Controllers\BidEvaluation.php on line 672.
+ 1 APPPATH\Controllers\BidEvaluation.php(672): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 672)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:09:31 --> Undefined array key 51
+in APPPATH\Controllers\BidEvaluation.php on line 672.
+ 1 APPPATH\Controllers\BidEvaluation.php(672): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 672)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:10:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BidEvaluation.php on line 678.
+ 1 APPPATH\Controllers\BidEvaluation.php(678): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 678)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:11:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\BidEvaluation.php on line 678.
+ 1 APPPATH\Controllers\BidEvaluation.php(678): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 678)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:12:28 --> Undefined array key 51
+in APPPATH\Controllers\BidEvaluation.php on line 679.
+ 1 APPPATH\Controllers\BidEvaluation.php(679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 51', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 679)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:49:53 --> Undefined variable $TenderId
+in APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php on line 197.
+ 1 APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TenderId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php', 197)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/FinancialEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(655): view('sys/BidEvaluation/FinancialEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->FinancialEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:49:57 --> Undefined variable $TenderId
+in APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php on line 197.
+ 1 APPPATH\Views\sys\BidEvaluation\FinancialEvaluation.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TenderId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php', 197)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\FinancialEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/FinancialEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(655): view('sys/BidEvaluation/FinancialEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->FinancialEvaluation('assets', '7', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 17:14:04 --> Undefined array key "Debug Group Of Companies"
+in APPPATH\Controllers\BidEvaluation.php on line 704.
+ 1 APPPATH\Controllers\BidEvaluation.php(704): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Debug Group Of Companies"', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\BidEvaluation.php', 704)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->SaveFanalysis()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

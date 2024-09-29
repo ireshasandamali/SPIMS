@@ -1,0 +1,257 @@
+CRITICAL - 2024-05-15 15:14:58 --> Class "App\Controllers\VoteModel" not found
+in APPPATH\Controllers\Sys.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:18:32 --> Undefined array key "Year"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 267.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Year"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 267)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(88): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:18:43 --> Undefined array key "Year"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 267.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Year"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 267)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(88): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:23:25 --> Undefined array key "Status"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 271.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 271)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(88): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:23:51 --> Undefined array key "Status"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 271.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 271)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(88): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:24:18 --> Undefined array key "Status"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 271.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 271)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(88): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:48:22 --> Undefined array key "percentage"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 53.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "percentage"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(142): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:49:27 --> Undefined array key "percentage"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 53.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "percentage"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(142): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:50:39 --> Undefined array key "percentage"
+in APPPATH\Views\sys\content_ProcurementOfficer.php on line 53.
+ 1 APPPATH\Views\sys\content_ProcurementOfficer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "percentage"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_ProcurementOfficer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_procurementofficer', [], true)
+ 5 APPPATH\Controllers\Sys.php(142): view('sys/content_procurementofficer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 16:37:29 --> Call to undefined method App\Models\ShopingModel::getinvitationDetailssys
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\SubmitedBid.php(93): CodeIgniter\Model->__call('getinvitationDetailssys', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 16:37:38 --> Call to undefined method App\Models\ShopingModel::getinvitationDetailssys
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\SubmitedBid.php(93): CodeIgniter\Model->__call('getinvitationDetailssys', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:17:58 --> Call to undefined method App\Models\ShopingModel::getinvitationDetailssys
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\SubmitedBid.php(93): CodeIgniter\Model->__call('getinvitationDetailssys', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:19:32 --> Call to undefined method App\Models\ShopingModel::getinvitationDetailssys
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\SubmitedBid.php(93): CodeIgniter\Model->__call('getinvitationDetailssys', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:21:15 --> Call to undefined method App\Models\ShopingModel::getinvitationDetailssys
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\SubmitedBid.php(93): CodeIgniter\Model->__call('getinvitationDetailssys', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('8')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:22:29 --> Call to undefined method App\Models\ShopingModel::getinvitationDetailssys
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\SubmitedBid.php(93): CodeIgniter\Model->__call('getinvitationDetailssys', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('8')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:24:46 --> Undefined array key "BOpens"
+in APPPATH\Views\sys\submitedBid\OpenedSBid.php on line 88.
+ 1 APPPATH\Views\sys\submitedBid\OpenedSBid.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BOpens"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedSBid.php', 88)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedSBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedSBid', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(102): view('sys/SubmitedBid/OpenedSBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('8')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:25:29 --> Undefined array key "sannounceId"
+in APPPATH\Views\sys\submitedBid\OpenedSBid.php on line 96.
+ 1 APPPATH\Views\sys\submitedBid\OpenedSBid.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sannounceId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedSBid.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedSBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedSBid', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(102): view('sys/SubmitedBid/OpenedSBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedSBid('8')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:52:52 --> Undefined variable $employees
+in APPPATH\Views\sys\employee\view.php on line 81.
+ 1 APPPATH\Views\sys\employee\view.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 81)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(149): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:55:16 --> Undefined array key "name"
+in APPPATH\Views\sys\employee\view.php on line 84.
+ 1 APPPATH\Views\sys\employee\view.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 84)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(186): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:57:14 --> Undefined variable $employee
+in APPPATH\Views\sys\employee\view.php on line 89.
+ 1 APPPATH\Views\sys\employee\view.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 89)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(149): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 17:58:11 --> Undefined variable $employees
+in APPPATH\Views\sys\employee\view.php on line 157.
+ 1 APPPATH\Views\sys\employee\view.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(149): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 18:00:01 --> Undefined variable $employee
+in APPPATH\Views\sys\employee\view.php on line 157.
+ 1 APPPATH\Views\sys\employee\view.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(149): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 18:03:40 --> Undefined array key "name"
+in APPPATH\Views\sys\employee\view.php on line 37.
+ 1 APPPATH\Views\sys\employee\view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/view', [], true)
+ 5 APPPATH\Controllers\Employee.php(149): view('sys/employee/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 18:33:21 --> Undefined variable $nonregSuppliers
+in APPPATH\Views\sys\content_Administrator.php on line 55.
+ 1 APPPATH\Views\sys\content_Administrator.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nonregSuppliers', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Administrator.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Administrator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_administrator', [], true)
+ 5 APPPATH\Controllers\Sys.php(146): view('sys/content_administrator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 18:33:38 --> Undefined variable $nonregSuppliers
+in APPPATH\Views\sys\content_Administrator.php on line 55.
+ 1 APPPATH\Views\sys\content_Administrator.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nonregSuppliers', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Administrator.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Administrator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_administrator', [], true)
+ 5 APPPATH\Controllers\Sys.php(146): view('sys/content_administrator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 18:39:00 --> Undefined array key "Status"
+in APPPATH\Views\sys\content_Requester.php on line 271.
+ 1 APPPATH\Views\sys\content_Requester.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Requester.php', 271)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Requester.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_requester', [], true)
+ 5 APPPATH\Controllers\Sys.php(146): view('sys/content_requester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

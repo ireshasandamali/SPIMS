@@ -1,0 +1,18 @@
+CRITICAL - 2023-11-24 15:56:09 --> Undefined variable $RequestId
+in APPPATH\Views\sys\tender\create.php on line 20.
+ 1 APPPATH\Views\sys\tender\create.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RequestId', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/create', [], true)
+ 5 APPPATH\Controllers\Tender.php(70): view('sys/tender/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:03:58 --> Undefined variable $TenderId
+in APPPATH\Controllers\Tender.php on line 64.
+ 1 APPPATH\Controllers\Tender.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TenderId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

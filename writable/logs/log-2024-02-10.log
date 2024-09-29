@@ -1,0 +1,1490 @@
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:22:39 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-10 06:53:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-10 06:53:10 --> 220 smtp.gmail.com ESMTP y9-20020aa79e09000000b006e080ab69d1sm1162402pfq.190 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:4000:21c2:6531:e19c:7b7a:a92a:6823]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:4000:21c2:6531:e19c:7b7a:a92a:6823]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK y9-20020aa79e09000000b006e080ab69d1sm1162402pfq.190 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. y9-20020aa79e09000000b006e080ab69d1sm1162402pfq.190 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. y9-20020aa79e09000000b006e080ab69d1sm1162402pfq.190 - gsmtp
+
+quit: 221 2.0.0 closing connection y9-20020aa79e09000000b006e080ab69d1sm1162402pfq.190 - gsmtp
+
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:38 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:25:40 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:56:09 --> Undefined array key "DCharges"
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 52.
+ 1 APPPATH\Views\sys\Payments\DocummentCharges.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DCharges"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 5 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 01:59:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:00:41 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-10 07:31:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-10 07:31:15 --> 220 smtp.gmail.com ESMTP gb21-20020a17090b061500b00296f5a3de52sm2486799pjb.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:4000:21c2:6531:e19c:7b7a:a92a:6823]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:4000:21c2:6531:e19c:7b7a:a92a:6823]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK gb21-20020a17090b061500b00296f5a3de52sm2486799pjb.4 - gsmtp
+
+to: 250 2.1.5 OK gb21-20020a17090b061500b00296f5a3de52sm2486799pjb.4 - gsmtp
+
+data: 354  Go ahead gb21-20020a17090b061500b00296f5a3de52sm2486799pjb.4 - gsmtp
+
+
+quit: 250 2.0.0 OK  1707530475 gb21-20020a17090b061500b00296f5a3de52sm2486799pjb.4 - gsmtp
+
+The following SMTP error was encountered: 250 2.0.0 OK  1707530475 gb21-20020a17090b061500b00296f5a3de52sm2486799pjb.4 - gsmtp
+
+The following SMTP error was encountered: 
+CRITICAL - 2024-02-10 02:02:27 --> Undefined constant "listP"
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 56.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 4 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 02:05:17 --> Undefined variable $list
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 57.
+ 1 APPPATH\Views\sys\Payments\DocummentCharges.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 5 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 11:28:43 --> Unclosed '{' on line 48
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 134.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 3 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 11:41:05 --> Undefined variable $resultP
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 48.
+ 1 APPPATH\Views\sys\Payments\DocummentCharges.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 5 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 11:42:08 --> Undefined variable $resultP
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 48.
+ 1 APPPATH\Views\sys\Payments\DocummentCharges.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 5 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 11:42:09 --> Undefined variable $resultP
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 48.
+ 1 APPPATH\Views\sys\Payments\DocummentCharges.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 5 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 11:42:41 --> Undefined variable $resultP
+in APPPATH\Views\sys\Payments\DocummentCharges.php on line 48.
+ 1 APPPATH\Views\sys\Payments\DocummentCharges.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultP', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\Payments\\DocummentCharges.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/Payments/DocummentCharges', [], true)
+ 5 APPPATH\Controllers\Payments.php(53): view('sys/Payments/DocummentCharges', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 11:59:46 --> Undefined variable $employee
+in APPPATH\Controllers\Payments.php on line 52.
+ 1 APPPATH\Controllers\Payments.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Payments.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-10 12:00:37 --> mysqli_sql_exception: Unknown column 'TenderNo' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\IPMS\app\Controllers\Payments.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-10 12:00:37 --> Unknown column 'TenderNo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `DocumentCharges`
+WHERE `TenderNo` = \'STF/LOG/C51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `DocumentCharges`
+WHERE `TenderNo` = \'STF/LOG/C51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `DocumentCharges`
+WHERE `TenderNo` = \'STF/LOG/C51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `DocumentCharges`
+WHERE `TenderNo` = :TenderNo:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Payments.php(53): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Payments->DocummentCharges()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:31:41 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:01:59 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:01:59 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:01:59 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:01:59 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:01:59 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:01:59 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:02:00 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 13:02:00 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 18:32:12 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:12:36 --> Call to undefined function App\Controllers\CommitteememberModel()
+in APPPATH\Controllers\BidEvaluation.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('39')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:12:53 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 71.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 71)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('39')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:22:39 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 86.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:23:42 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 86.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:25:07 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 75.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:27:37 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 75.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:27:43 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 75.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 75)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:31:27 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 79.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:31:38 --> Undefined array key "LasttName"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 79.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LasttName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:47:23 --> Undefined array key "Name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 78.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 15:50:19 --> Undefined array key "Name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 78.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:20:08 --> Undefined array key "Name"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 78.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 21:53:11 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:47:47 --> Undefined array key "EmPId"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 81.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "EmPId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 81)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:47:57 --> Undefined array key "EmPId"
+in APPPATH\Views\sys\BidEvaluation\TECEvaluation.php on line 81.
+ 1 APPPATH\Views\sys\BidEvaluation\TECEvaluation.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "EmPId"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php', 81)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\BidEvaluation\\TECEvaluation.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/TECEvaluation', [], true)
+ 5 APPPATH\Controllers\BidEvaluation.php(117): view('sys/BidEvaluation/TECEvaluation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->TECEvaluation('51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:32 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:32 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:32 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:32 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:32 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:33 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:33 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:21:33 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:51:53 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:07 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:07 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:07 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:07 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:07 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:07 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:08 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 22:22:08 --> Undefined variable $result
+in APPPATH\Views\web\viewdetailedBid.php on line 214.
+ 1 APPPATH\Views\web\viewdetailedBid.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php', 214)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewdetailedBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewdetailedBid', [], true)
+ 5 APPPATH\Controllers\Web.php(176): view('web/viewdetailedBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewdetailedBid('public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:34 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'purecounter', 'purecounter_vanilla.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'js', 'carousel.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'isotope-layout', 'isotope.pkgd.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'glightbox', 'js', 'glightbox.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:55:35 --> Undefined variable $resulti
+in APPPATH\Views\web\viewBid.php on line 218.
+ 1 APPPATH\Views\web\viewBid.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resulti', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php', 218)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\viewBid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/viewBid', [], true)
+ 5 APPPATH\Controllers\Web.php(190): view('web/viewBid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->viewBid('4', 'public', 'assets_web', 'vendor', 'swiper', 'swiper-bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

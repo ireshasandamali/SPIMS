@@ -1,0 +1,10 @@
+CRITICAL - 2023-09-08 14:50:48 --> Call to undefined function form_open()
+in APPPATH\Views\sys\yearPlan\viewYearPlan.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/yearPlan/viewYearPlan', [], true)
+ 4 APPPATH\Controllers\YearPlan.php(19): view('sys/yearPlan/viewYearPlan')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\YearPlan->viewYearPlan()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\YearPlan))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

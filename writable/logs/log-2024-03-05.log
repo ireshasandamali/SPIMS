@@ -1,0 +1,38 @@
+CRITICAL - 2024-03-05 11:40:38 --> Unmatched '}'
+in APPPATH\Views\sys\itemrequest\viewReq.php on line 183.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReq', [], true)
+ 3 APPPATH\Controllers\ItemRequest.php(78): view('sys/itemrequest/viewReq', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 12:37:55 --> Undefined variable $disabled
+in APPPATH\Views\sys\itemrequest\viewReq.php on line 147.
+ 1 APPPATH\Views\sys\itemrequest\viewReq.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disabled', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReq.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(78): view('sys/itemrequest/viewReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 12:42:15 --> Unmatched '}'
+in APPPATH\Views\sys\itemrequest\viewReq.php on line 181.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReq', [], true)
+ 3 APPPATH\Controllers\ItemRequest.php(78): view('sys/itemrequest/viewReq', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 12:42:15 --> Unmatched '}'
+in APPPATH\Views\sys\itemrequest\viewReq.php on line 181.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReq', [], true)
+ 3 APPPATH\Controllers\ItemRequest.php(78): view('sys/itemrequest/viewReq', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

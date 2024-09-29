@@ -1,0 +1,11 @@
+CRITICAL - 2024-01-10 14:46:33 --> Undefined variable $list
+in APPPATH\Views\web\registeredSupplier.php on line 94.
+ 1 APPPATH\Views\web\registeredSupplier.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\registeredSupplier.php', 94)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\registeredSupplier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/registeredSupplier', [], true)
+ 5 APPPATH\Controllers\Web.php(155): view('web/registeredSupplier')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->registeredSupplier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

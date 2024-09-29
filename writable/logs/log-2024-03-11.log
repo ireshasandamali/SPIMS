@@ -1,0 +1,270 @@
+CRITICAL - 2024-03-11 12:40:26 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\ProcurementRequestItemList.php(85): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementRequestItemList->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementRequestItemList))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:42:04 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\ProcurementRequestItemList.php(85): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementRequestItemList->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementRequestItemList))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:44:51 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(104): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:52:22 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(451): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->newReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:56:06 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Tender.php(78): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:57:56 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Tender.php(80): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 12:58:15 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Tender.php(80): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:37:19 --> Undefined array key "ICategory"
+in APPPATH\Views\sys\itemrequest\viewReq.php on line 123.
+ 1 APPPATH\Views\sys\itemrequest\viewReq.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ICategory"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReq.php', 123)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(105): view('sys/itemrequest/viewReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 14:20:58 --> Undefined variable $Bidder
+in APPPATH\Controllers\SubmitedBid.php on line 236.
+ 1 APPPATH\Controllers\SubmitedBid.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Bidder', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\SubmitedBid.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBidreport('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 14:21:42 --> Undefined variable $total_rows
+in APPPATH\Views\sys\submitedBid\OpenedBidreport.php on line 86.
+ 1 APPPATH\Views\sys\submitedBid\OpenedBidreport.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_rows', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBidreport.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\OpenedBidreport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/OpenedBidreport', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(254): view('sys/SubmitedBid/OpenedBidreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->OpenedBidreport('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 14:22:21 --> Undefined variable $listB
+in APPPATH\Controllers\SubmitedBid.php on line 102.
+ 1 APPPATH\Controllers\SubmitedBid.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listB', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\SubmitedBid.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->ViewBidders('4', '51')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 14:31:40 --> Undefined variable $unique_business_count
+in APPPATH\Views\sys\submitedBid\ViewBiddersreport.php on line 44.
+ 1 APPPATH\Views\sys\submitedBid\ViewBiddersreport.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unique_business_count', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBiddersreport.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBiddersreport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/ViewBiddersreport', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(269): view('sys/SubmitedBid/ViewBiddersreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->ViewBiddersreport('4', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 14:33:18 --> Undefined variable $total_rows
+in APPPATH\Views\sys\submitedBid\ViewBiddersreport.php on line 60.
+ 1 APPPATH\Views\sys\submitedBid\ViewBiddersreport.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_rows', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBiddersreport.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBiddersreport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/ViewBiddersreport', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(269): view('sys/SubmitedBid/ViewBiddersreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->ViewBiddersreport('4', '51')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 14:33:18 --> Undefined variable $total_rows
+in APPPATH\Views\sys\submitedBid\ViewBiddersreport.php on line 60.
+ 1 APPPATH\Views\sys\submitedBid\ViewBiddersreport.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_rows', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBiddersreport.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\submitedBid\\ViewBiddersreport.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/SubmitedBid/ViewBiddersreport', [], true)
+ 5 APPPATH\Controllers\SubmitedBid.php(269): view('sys/SubmitedBid/ViewBiddersreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SubmitedBid->ViewBiddersreport('4', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubmitedBid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 16:16:03 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Employee.php(93): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 16:16:17 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Employee.php(93): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 16:16:22 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Employee.php(367): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->adddesignation()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 16:41:56 --> Undefined variable $Tenderid
+in APPPATH\Controllers\Procurement.php on line 111.
+ 1 APPPATH\Controllers\Procurement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tenderid', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Procurement.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->OpeningCreateMeeting()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 16:43:25 --> Undefined variable $Tenderid
+in APPPATH\Controllers\Procurement.php on line 111.
+ 1 APPPATH\Controllers\Procurement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tenderid', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Procurement.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Procurement->OpeningCreateMeeting()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procurement))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 17:34:49 --> Undefined variable $itemrequest
+in APPPATH\Controllers\Tender.php on line 137.
+ 1 APPPATH\Controllers\Tender.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemrequest', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 137)
+ 2 APPPATH\Controllers\Tender.php(76): App\Controllers\Tender->addItem(69)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 17:35:33 --> Undefined variable $Item_List
+in APPPATH\Views\sys\tender\addItem.php on line 49.
+ 1 APPPATH\Views\sys\tender\addItem.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Item_List', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(187): view('sys/tender/addItem', [...])
+ 6 APPPATH\Controllers\Tender.php(76): App\Controllers\Tender->addItem(70)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 17:48:32 --> Call to undefined method App\Models\RequestItemModel::getquery
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Tender.php(140): CodeIgniter\Model->__call('getquery', [])
+ 2 APPPATH\Controllers\Tender.php(76): App\Controllers\Tender->addItem(72)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-11 17:53:10 --> mysqli_sql_exception: Unknown column 'r.RequestId' in 'where clause' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('\n        SELECT...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\n        SELECT...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#3 C:\xampp\htdocs\IPMS\system\Model.php(832): CodeIgniter\Database\BaseConnection->query('\n        SELECT...')
+#4 C:\xampp\htdocs\IPMS\app\Models\RequestModel.php(42): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(140): App\Models\RequestModel->getrequestItemDetails()
+#6 C:\xampp\htdocs\IPMS\app\Controllers\Tender.php(76): App\Controllers\Tender->addItem(77)
+#7 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Tender->create()
+#8 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-11 17:53:10 --> Unknown column 'r.RequestId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT * FROM itemrequest i          
+        LEFT JOIN ReqItem a ON i.RequestID = a.RId
+        where  r.RequestId IN (6,9)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT * FROM itemrequest i          
+        LEFT JOIN ReqItem a ON i.RequestID = a.RId
+        where  r.RequestId IN (6,9)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT * FROM itemrequest i          
+        LEFT JOIN ReqItem a ON i.RequestID = a.RId
+        where  r.RequestId IN (6,9)')
+ 4 SYSTEMPATH\Model.php(832): CodeIgniter\Database\BaseConnection->query('
+        SELECT * FROM itemrequest i          
+        LEFT JOIN ReqItem a ON i.RequestID = a.RId
+        where  r.RequestId IN (6,9)')
+ 5 APPPATH\Models\RequestModel.php(42): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Tender.php(140): App\Models\RequestModel->getrequestItemDetails()
+ 7 APPPATH\Controllers\Tender.php(76): App\Controllers\Tender->addItem(77)
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 19:34:19 --> Cannot use object of type App\Models\RequestModel as array
+in APPPATH\Controllers\Tender.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->getQty()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 19:38:50 --> Undefined array key "Qty"
+in APPPATH\Controllers\Tender.php on line 762.
+ 1 APPPATH\Controllers\Tender.php(762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qty"', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 762)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->getQty()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 19:39:16 --> Undefined array key "Qty"
+in APPPATH\Controllers\Tender.php on line 762.
+ 1 APPPATH\Controllers\Tender.php(762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qty"', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Tender.php', 762)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->getQty()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

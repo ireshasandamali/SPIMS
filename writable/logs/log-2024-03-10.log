@@ -1,0 +1,1100 @@
+CRITICAL - 2024-03-10 01:14:15 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\sys\itemrequest\itemCategories.php on line 4.
+ 1 APPPATH\Views\sys\itemrequest\itemCategories.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemCategories.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemCategories.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemCategories', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(357): view('sys/itemrequest/itemCategories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:16:34 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\sys\itemrequest\itemCategories.php on line 4.
+ 1 APPPATH\Views\sys\itemrequest\itemCategories.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemCategories.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemCategories.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemCategories', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(357): view('sys/itemrequest/itemCategories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:32:01 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\sys\itemrequest\itemCategories.php on line 4.
+ 1 APPPATH\Views\sys\itemrequest\itemCategories.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemCategories.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\itemCategories.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemCategories', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(357): view('sys/itemrequest/itemCategories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:41:31 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\itemrequest\itemCategories.php on line 5.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemCategories', [], true)
+ 4 APPPATH\Controllers\ItemRequest.php(351): view('sys/itemrequest/itemCategories', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:42:03 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\itemrequest\itemCategories.php on line 5.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemCategories', [], true)
+ 4 APPPATH\Controllers\ItemRequest.php(351): view('sys/itemrequest/itemCategories', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:42:46 --> Cannot access offset of type string on string
+in APPPATH\Views\sys\itemrequest\itemCategories.php on line 5.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/itemCategories', [], true)
+ 4 APPPATH\Controllers\ItemRequest.php(351): view('sys/itemrequest/itemCategories', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:44:13 --> Call to undefined method App\Models\ItemcategoryModel::finall
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ItemRequest.php(349): CodeIgniter\Model->__call('finall', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:44:40 --> Call to undefined method App\Models\ItemcategoryModel::finall
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ItemRequest.php(349): CodeIgniter\Model->__call('finall', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:28:09 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\ItemRequest.php on line 410.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->newReq()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:29:00 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\ItemRequest.php on line 410.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->newReq()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:31:44 --> Class "App\Controllers\NewRequestModel" not found
+in APPPATH\Controllers\ItemRequest.php on line 413.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->newReq()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:32:22 --> Undefined variable $newName
+in APPPATH\Controllers\ItemRequest.php on line 423.
+ 1 APPPATH\Controllers\ItemRequest.php(423): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 423)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->newReq()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:34:23 --> Undefined array key "createTenderStatus"
+in APPPATH\Views\sys\itemrequest\viewNewReq.php on line 111.
+ 1 APPPATH\Views\sys\itemrequest\viewNewReq.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "createTenderStatus"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewReq.php', 111)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(467): view('sys/itemrequest/viewNewReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:41:08 --> Undefined array key "Quantity"
+in APPPATH\Views\sys\itemrequest\viewNewReq.php on line 111.
+ 1 APPPATH\Views\sys\itemrequest\viewNewReq.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Quantity"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewReq.php', 111)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewReq.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewReq', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(467): view('sys/itemrequest/viewNewReq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:41:27 --> Undefined array key "sample_image"
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 73.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sample_image"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:41:28 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:42:12 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:50:49 --> Undefined array key "sample_image"
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 73.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sample_image"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:50:50 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:52:30 --> Undefined array key "sample_image"
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 73.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sample_image"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:52:31 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 02:53:04 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:01:19 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 58.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(478): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:03:42 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 68.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(478): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:05:32 --> Undefined variable $camp_list
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 51.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $camp_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(478): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:05:32 --> Undefined variable $camp_list
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 51.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $camp_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(478): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:06:18 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 122.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(480): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:07:06 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:07:27 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:07:37 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 122.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(480): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:08:50 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:08:55 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 121.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 121)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(480): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:14:24 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 115.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 115)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(480): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:14:39 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 119.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 119)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(480): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:18:06 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 119.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 119)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:20:12 --> Undefined array key "Description"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 32.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Description"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:20:12 --> Undefined variable $listi
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 67.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listi', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:21:06 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 59.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:22:01 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 59.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:23:03 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 72.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 72)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:23:35 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 119.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 119)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:24:12 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 120.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:34:13 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 125.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 125)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:34:47 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 123.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 123)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:36:05 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 83.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:36:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\itemrequest\editrequest.php on line 28.
+ 1 APPPATH\Views\sys\itemrequest\editrequest.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\editrequest.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\editrequest.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/editrequest', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(293): view('sys/itemRequest/editrequest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->editrequest('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 03:37:05 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 123.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 123)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 04:37:53 --> Undefined array key "RequestID"
+in APPPATH\Views\sys\itemrequest\viewNewItem.php on line 123.
+ 1 APPPATH\Views\sys\itemrequest\viewNewItem.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "RequestID"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php', 123)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewNewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewNewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(481): view('sys/itemrequest/viewNewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewNewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 04:37:58 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 80.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 04:38:02 --> Undefined variable $result
+in APPPATH\Views\sys\itemrequest\viewItem.php on line 80.
+ 1 APPPATH\Views\sys\itemrequest\viewItem.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\viewItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/viewItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(179): view('sys/itemrequest/viewItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewItem('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 04:39:28 --> Call to undefined method App\Models\ItemcategoryModel::finall
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ItemRequest.php(373): CodeIgniter\Model->__call('finall', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 04:41:54 --> Call to undefined method App\Models\ItemcategoryModel::finall
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ItemRequest.php(373): CodeIgniter\Model->__call('finall', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 04:43:06 --> Call to undefined method App\Models\ItemcategoryModel::finall
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\ItemRequest.php(373): CodeIgniter\Model->__call('finall', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getItemCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 05:32:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ItemRequest.php on line 358.
+ 1 APPPATH\Controllers\ItemRequest.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 358)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->getvdiscription()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 05:42:27 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(63): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:13:52 --> Undefined variable $userid
+in APPPATH\Views\sys\WelcomeAdmin.php on line 15.
+ 1 APPPATH\Views\sys\WelcomeAdmin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\WelcomeAdmin.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\WelcomeAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/WelcomeAdmin', [], true)
+ 5 APPPATH\Controllers\Web.php(1189): view('sys/WelcomeAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->make_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:55:08 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(63): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:22:09 --> Undefined array key "profile_image"
+in APPPATH\Views\sys\content_Administrator.php on line 140.
+ 1 APPPATH\Views\sys\content_Administrator.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_image"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Administrator.php', 140)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\content_Administrator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/content_administrator', [], true)
+ 5 APPPATH\Controllers\Sys.php(66): view('sys/content_administrator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:25:29 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Sys.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 08:13:44 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(54): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 08:14:13 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(54): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 09:05:11 --> Call to undefined method App\Models\EmployeeModel::getQuery
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Employee.php(132): CodeIgniter\Model->__call('getQuery', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->viewEmp('9')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 09:15:07 --> Undefined array key "ProfileImage"
+in APPPATH\Views\sys\employee\viewEmp.php on line 38.
+ 1 APPPATH\Views\sys\employee\viewEmp.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProfileImage"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\viewEmp.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\viewEmp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/viewEmp', [], true)
+ 5 APPPATH\Controllers\Employee.php(138): view('sys/employee/viewEmp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->viewEmp('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 11:11:03 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(53): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 11:38:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\division\editcamp.php on line 25.
+ 1 APPPATH\Views\sys\division\editcamp.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\division\\editcamp.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\division\\editcamp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/division/editcamp', [], true)
+ 5 APPPATH\Controllers\division.php(91): view('sys/division/editcamp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\division->editcamp('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\division))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 11:39:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\division\editcamp.php on line 25.
+ 1 APPPATH\Views\sys\division\editcamp.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\division\\editcamp.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\division\\editcamp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/division/editcamp', [], true)
+ 5 APPPATH\Controllers\division.php(91): view('sys/division/editcamp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\division->editcamp('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\division))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 11:42:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\division\editcamp.php on line 33.
+ 1 APPPATH\Views\sys\division\editcamp.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\division\\editcamp.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\division\\editcamp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/division/editcamp', [], true)
+ 5 APPPATH\Controllers\division.php(91): view('sys/division/editcamp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\division->editcamp('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\division))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 11:49:47 --> Invalid file: "sys/ProcurementRequestItemList/view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/ProcurementRequestItemList/view.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/ProcurementRequestItemList/view', [], true)
+ 3 APPPATH\Controllers\ProcurementRequestItemList.php(93): view('sys/ProcurementRequestItemList/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementRequestItemList->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementRequestItemList))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:17:40 --> Undefined array key "Allocation"
+in APPPATH\Views\sys\ProcurementRequestItemList\view.php on line 100.
+ 1 APPPATH\Views\sys\ProcurementRequestItemList\view.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Allocation"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\ProcurementRequestItemList\\view.php', 100)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\ProcurementRequestItemList\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/ProcurementRequestItemList/view', [], true)
+ 5 APPPATH\Controllers\ProcurementRequestItemList.php(84): view('sys/ProcurementRequestItemList/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementRequestItemList->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementRequestItemList))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:45:44 --> Undefined variable $data
+in APPPATH\Controllers\ProcurementPlan.php on line 93.
+ 1 APPPATH\Controllers\ProcurementPlan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementPlan.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:46:28 --> Undefined variable $data
+in APPPATH\Controllers\ProcurementPlan.php on line 93.
+ 1 APPPATH\Controllers\ProcurementPlan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementPlan.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:46:49 --> Undefined variable $data
+in APPPATH\Controllers\ProcurementPlan.php on line 93.
+ 1 APPPATH\Controllers\ProcurementPlan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementPlan.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:47:40 --> Undefined variable $data
+in APPPATH\Controllers\ProcurementPlan.php on line 93.
+ 1 APPPATH\Controllers\ProcurementPlan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementPlan.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:49:30 --> Undefined variable $data
+in APPPATH\Controllers\ProcurementPlan.php on line 93.
+ 1 APPPATH\Controllers\ProcurementPlan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementPlan.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 12:55:55 --> Undefined variable $data
+in APPPATH\Controllers\ProcurementPlan.php on line 93.
+ 1 APPPATH\Controllers\ProcurementPlan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementPlan.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 13:24:05 --> Class "App\Controllers\EmployeeModel" not found
+in APPPATH\Controllers\ProcurementRequestItemList.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementRequestItemList->removeItem('4')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementRequestItemList))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 14:03:13 --> Too few arguments to function App\Controllers\ProcurementItem::viewItem(), 0 passed in C:\xampp\htdocs\IPMS\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\ProcurementItem.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementItem->viewItem()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementItem))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 14:04:19 --> Too few arguments to function App\Controllers\ProcurementItem::viewItem(), 0 passed in C:\xampp\htdocs\IPMS\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\ProcurementItem.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementItem->viewItem()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementItem))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 14:06:13 --> Too few arguments to function App\Controllers\ProcurementItem::viewItem(), 0 passed in C:\xampp\htdocs\IPMS\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\ProcurementItem.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementItem->viewItem()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementItem))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 15:08:58 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(96): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 15:09:12 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(96): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->viewReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 15:09:15 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Sys.php(69): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 15:09:26 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Sys.php(69): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:24:49 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:25:05 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:25:14 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:26:06 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:27:37 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:27:40 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:27:42 --> Undefined variable $tender_Status
+in APPPATH\Controllers\Sys.php on line 37.
+ 1 APPPATH\Controllers\Sys.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Sys.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:27:54 --> Undefined variable $tender_Status
+in APPPATH\Controllers\Sys.php on line 37.
+ 1 APPPATH\Controllers\Sys.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Sys.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:47:52 --> Class "App\Controllers\CampModel" not found
+in APPPATH\Controllers\Employee.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:58:47 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(58): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 16:59:40 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(58): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:04:01 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:04:10 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:06:50 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:06:56 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:08:32 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:09:11 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Sys.php(73): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:09:20 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\Sys.php(73): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:10:06 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:12:33 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:12:50 --> Undefined variable $tender_Status
+in APPPATH\Views\sys\header.php on line 79.
+ 1 APPPATH\Views\sys\header.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tender_Status', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/header', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(54): view('sys/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:13:58 --> Array to string conversion
+in APPPATH\Controllers\ItemRequest.php on line 56.
+ 1 APPPATH\Controllers\ItemRequest.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ItemRequest.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->createReq()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:30:25 --> Undefined array key "Item"
+in APPPATH\Views\sys\itemrequest\reqItem.php on line 122.
+ 1 APPPATH\Views\sys\itemrequest\reqItem.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Item"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\reqItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemrequest/reqItem', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(174): view('sys/itemrequest/reqItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->reqItem()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:32:17 --> Undefined array key "Item"
+in APPPATH\Views\sys\itemrequest\view.php on line 91.
+ 1 APPPATH\Views\sys\itemrequest\view.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Item"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 91)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(285): view('sys/itemRequest/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('82')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 17:55:14 --> Undefined array key "Item"
+in APPPATH\Views\sys\itemrequest\view.php on line 91.
+ 1 APPPATH\Views\sys\itemrequest\view.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Item"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php', 91)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\itemrequest\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/itemRequest/view', [], true)
+ 5 APPPATH\Controllers\ItemRequest.php(285): view('sys/itemRequest/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ItemRequest->view('82')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 18:25:45 --> Can't use function return value in write context
+in APPPATH\Controllers\Tender.php on line 132.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-10 18:27:12 --> Class "App\Controllers\RequestItemModel" not found
+in APPPATH\Controllers\Tender.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 18:28:10 --> Can't use function return value in write context
+in APPPATH\Controllers\Tender.php on line 133.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-10 18:38:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\tender\addItem.php on line 34.
+ 1 APPPATH\Views\sys\tender\addItem.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(182): view('sys/tender/addItem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->addItem()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 19:07:13 --> Array to string conversion
+in APPPATH\Models\RequestItemModel.php on line 13.
+ 1 APPPATH\Models\RequestItemModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\IPMS\\app\\Models\\RequestItemModel.php', 13)
+ 2 APPPATH\Controllers\Tender.php(134): App\Models\RequestItemModel->getrequestitemDetails([...])
+ 3 APPPATH\Controllers\Tender.php(76): App\Controllers\Tender->addItem(67)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 19:09:38 --> Undefined variable $Item_List
+in APPPATH\Views\sys\tender\addItem.php on line 49.
+ 1 APPPATH\Views\sys\tender\addItem.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Item_List', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\tender\\addItem.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/tender/addItem', [], true)
+ 5 APPPATH\Controllers\Tender.php(183): view('sys/tender/addItem', [...])
+ 6 APPPATH\Controllers\Tender.php(76): App\Controllers\Tender->addItem(68)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tender->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tender))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,126 @@
+CRITICAL - 2023-10-10 12:54:20 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:58:37 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:58:49 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 13:01:23 --> Invalid file: "sys/menu_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/menu_.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/menu_', [], true)
+ 3 APPPATH\Controllers\Sys.php(15): view('sys/menu_')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sys->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sys))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 15:45:52 --> Undefined variable $usersId
+in APPPATH\Controllers\Employee.php on line 58.
+ 1 APPPATH\Controllers\Employee.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 15:47:34 --> Undefined variable $usersId
+in APPPATH\Controllers\Employee.php on line 58.
+ 1 APPPATH\Controllers\Employee.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 15:49:13 --> Undefined variable $usersId
+in APPPATH\Controllers\Employee.php on line 58.
+ 1 APPPATH\Controllers\Employee.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 15:55:05 --> Undefined variable $usersId
+in APPPATH\Controllers\Employee.php on line 58.
+ 1 APPPATH\Controllers\Employee.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 18:08:42 --> mysqli_sql_exception: Unknown column 'UserId' in 'field list' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(86): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-10 18:08:42 --> Unknown column 'UserId' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (\'S10458\', \'Randika Products\', \'2023-10-28\', \'https:/dushan.com\', \'100000\', \'100000000\', \'S2\', \'Nugegoda\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'380\', \'southern\', \'205\', \'Mr\', \'Randika\', \'Lakmal\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'20001894652\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', \'Mrs\', \'Kalna\', \'Kumudumali\', \'3A/3,Bedigama\', \'Vitharandeniya\', \'378\', \'9896565656\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', 47)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (\'S10458\', \'Randika Products\', \'2023-10-28\', \'https:/dushan.com\', \'100000\', \'100000000\', \'S2\', \'Nugegoda\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'380\', \'southern\', \'205\', \'Mr\', \'Randika\', \'Lakmal\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'20001894652\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', \'Mrs\', \'Kalna\', \'Kumudumali\', \'3A/3,Bedigama\', \'Vitharandeniya\', \'378\', \'9896565656\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', 47)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (\'S10458\', \'Randika Products\', \'2023-10-28\', \'https:/dushan.com\', \'100000\', \'100000000\', \'S2\', \'Nugegoda\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'380\', \'southern\', \'205\', \'Mr\', \'Randika\', \'Lakmal\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'20001894652\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', \'Mrs\', \'Kalna\', \'Kumudumali\', \'3A/3,Bedigama\', \'Vitharandeniya\', \'378\', \'9896565656\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', 47)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (:business_reg_no:, :business_name:, :business_reg_Date:, :website:, :MinmumValue:, :MaxmumValue:, :SType:, :location:, :street:, :street_line2:, :ocity:, :province:, :country:, :Titles:, :business_owner_Fname:, :business_owner_Lname:, :ostreet:, :ostreet_line2:, :nic:, :prefix:, :phone:, :Email:, :CTitles:, :Contact_person_Fname:, :Contact_person_Lname:, :Cstreet:, :Cstreet_line2:, :Ccity:, :Cnic:, :Cprefix:, :Cphone:, :CEmail:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Web.php(86): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 18:11:44 --> mysqli_sql_exception: Unknown column 'UserId' in 'field list' in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\Web.php(86): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-10 18:11:44 --> Unknown column 'UserId' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (\'S10458\', \'Randika Products\', \'2023-10-28\', \'https:/dushan.com\', \'100000\', \'100000000\', \'S2\', \'Nugegoda\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'380\', \'southern\', \'205\', \'Mr\', \'Randika\', \'Lakmal\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'20001894652\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', \'Mrs\', \'Kalna\', \'Kumudumali\', \'3A/3,Bedigama\', \'Vitharandeniya\', \'378\', \'9896565656\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', 48)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (\'S10458\', \'Randika Products\', \'2023-10-28\', \'https:/dushan.com\', \'100000\', \'100000000\', \'S2\', \'Nugegoda\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'380\', \'southern\', \'205\', \'Mr\', \'Randika\', \'Lakmal\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'20001894652\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', \'Mrs\', \'Kalna\', \'Kumudumali\', \'3A/3,Bedigama\', \'Vitharandeniya\', \'378\', \'9896565656\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', 48)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (\'S10458\', \'Randika Products\', \'2023-10-28\', \'https:/dushan.com\', \'100000\', \'100000000\', \'S2\', \'Nugegoda\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'380\', \'southern\', \'205\', \'Mr\', \'Randika\', \'Lakmal\', \'Samaya,Bedigama,\', \'Vitharandeniya\', \'20001894652\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', \'Mrs\', \'Kalna\', \'Kumudumali\', \'3A/3,Bedigama\', \'Vitharandeniya\', \'378\', \'9896565656\', \'94\', \'0715875726\', \'sandamalipathirana0@gmail.com\', 48)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `registeredsuppliers` (`business_reg_no`, `business_name`, `business_reg_Date`, `website`, `MinmumValue`, `MaxmumValue`, `SType`, `location`, `street`, `street_line2`, `ocity`, `province`, `country`, `Titles`, `business_owner_Fname`, `business_owner_Lname`, `ostreet`, `ostreet_line2`, `nic`, `prefix`, `phone`, `Email`, `CTitles`, `Contact_person_Fname`, `Contact_person_Lname`, `Cstreet`, `Cstreet_line2`, `Ccity`, `Cnic`, `Cprefix`, `Cphone`, `CEmail`, `UserId`) VALUES (:business_reg_no:, :business_name:, :business_reg_Date:, :website:, :MinmumValue:, :MaxmumValue:, :SType:, :location:, :street:, :street_line2:, :ocity:, :province:, :country:, :Titles:, :business_owner_Fname:, :business_owner_Lname:, :ostreet:, :ostreet_line2:, :nic:, :prefix:, :phone:, :Email:, :CTitles:, :Contact_person_Fname:, :Contact_person_Lname:, :Cstreet:, :Cstreet_line2:, :Ccity:, :Cnic:, :Cprefix:, :Cphone:, :CEmail:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Web.php(86): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

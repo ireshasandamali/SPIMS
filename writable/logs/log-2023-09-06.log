@@ -1,0 +1,79 @@
+CRITICAL - 2023-09-06 19:31:20 --> Undefined array key "VoteName"
+in APPPATH\Views\sys\procurementPlan\createPro.php on line 26.
+ 1 APPPATH\Views\sys\procurementPlan\createPro.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "VoteName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\createPro.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\createPro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/procurementPlan/createPro', [], true)
+ 5 APPPATH\Controllers\ProcurementPlan.php(61): view('sys/procurementPlan/createPro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->createPro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 20:20:48 --> Undefined array key "ICategory"
+in APPPATH\Views\sys\procurementPlan\viewPro.php on line 101.
+ 1 APPPATH\Views\sys\procurementPlan\viewPro.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ICategory"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/procurementPlan/viewPro', [], true)
+ 5 APPPATH\Controllers\ProcurementPlan.php(81): view('sys/procurementPlan/viewPro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 20:22:23 --> Undefined array key "ICategory"
+in APPPATH\Views\sys\procurementPlan\viewPro.php on line 101.
+ 1 APPPATH\Views\sys\procurementPlan\viewPro.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ICategory"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/procurementPlan/viewPro', [], true)
+ 5 APPPATH\Controllers\ProcurementPlan.php(81): view('sys/procurementPlan/viewPro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 20:24:07 --> Undefined array key "ItemName"
+in APPPATH\Views\sys\procurementPlan\viewPro.php on line 102.
+ 1 APPPATH\Views\sys\procurementPlan\viewPro.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ItemName"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/procurementPlan/viewPro', [], true)
+ 5 APPPATH\Controllers\ProcurementPlan.php(81): view('sys/procurementPlan/viewPro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 20:52:39 --> Undefined array key "Id"
+in APPPATH\Views\sys\procurementPlan\viewPro.php on line 103.
+ 1 APPPATH\Views\sys\procurementPlan\viewPro.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php', 103)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/procurementPlan/viewPro', [], true)
+ 5 APPPATH\Controllers\ProcurementPlan.php(81): view('sys/procurementPlan/viewPro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 20:54:43 --> Undefined array key "Id"
+in APPPATH\Views\sys\procurementPlan\viewPro.php on line 103.
+ 1 APPPATH\Views\sys\procurementPlan\viewPro.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php', 103)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\procurementPlan\\viewPro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/procurementPlan/viewPro', [], true)
+ 5 APPPATH\Controllers\ProcurementPlan.php(81): view('sys/procurementPlan/viewPro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementPlan->viewPro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 21:29:58 --> Class "App\Controllers\ProcurementItemModel" not found
+in APPPATH\Controllers\ProcurementItem.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementItem->add()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementItem))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 21:34:03 --> Undefined variable $procurementItem
+in APPPATH\Controllers\ProcurementItem.php on line 43.
+ 1 APPPATH\Controllers\ProcurementItem.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $procurementItem', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\ProcurementItem.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ProcurementItem->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcurementItem))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

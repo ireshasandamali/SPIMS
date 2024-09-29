@@ -1,0 +1,293 @@
+CRITICAL - 2024-02-07 06:49:10 --> Undefined variable $Category_list
+in APPPATH\Views\web\registeredSupplier.php on line 191.
+ 1 APPPATH\Views\web\registeredSupplier.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Category_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\registeredSupplier.php', 191)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\web\\registeredSupplier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('web/registeredSupplier', [], true)
+ 5 APPPATH\Controllers\Web.php(641): view('web/registeredSupplier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Web->save_registeredSupplier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 06:55:35 --> Cannot use App\Models\SupplierCatergoryModel as SupplierCatergoryModel because the name is already in use
+in APPPATH\Controllers\Web.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-07 07:03:59 --> syntax error, unexpected token "class"
+in APPPATH\Controllers\Web.php on line 24.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('/web/registeredSupplier', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/web/registeredSupplier')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/web/registeredSupplier')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:20:14 --> Undefined variable $designation_list
+in APPPATH\Views\sys\employee\edit.php on line 93.
+ 1 APPPATH\Views\sys\employee\edit.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $designation_list', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 93)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(145): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:20:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(145): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:21:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:22:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:23:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:29:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:29:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:29:32 --> Invalid file: "employee/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/add', [], true)
+ 3 APPPATH\Controllers\Employee.php(189): view('employee/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:29:58 --> Invalid file: "employee/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/edit.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/edit', [], true)
+ 3 APPPATH\Controllers\Employee.php(189): view('employee/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:30:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:30:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:30:16 --> Invalid file: "employee/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/edit.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('employee/edit', [], true)
+ 3 APPPATH\Controllers\Employee.php(189): view('employee/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:31:04 --> Undefined variable $employee
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(189): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:31:57 --> Undefined variable $employee
+in APPPATH\Controllers\Employee.php on line 158.
+ 1 APPPATH\Controllers\Employee.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:32:21 --> Undefined variable $emp
+in APPPATH\Controllers\Employee.php on line 157.
+ 1 APPPATH\Controllers\Employee.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $emp', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:32:44 --> Undefined variable $EmpId
+in APPPATH\Controllers\Employee.php on line 158.
+ 1 APPPATH\Controllers\Employee.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $EmpId', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Employee.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->update()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:33:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\sys\employee\edit.php on line 23.
+ 1 APPPATH\Views\sys\employee\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\IPMS\\app\\Views\\sys\\employee\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/edit', [], true)
+ 5 APPPATH\Controllers\Employee.php(147): view('sys/employee/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->edit('assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:41:12 --> Invalid file: "sys/BidEvaluation/PCMeeting.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sys/BidEvaluation/PCMeeting.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/BidEvaluation/PCMeeting', [], true)
+ 3 APPPATH\Controllers\BidEvaluation.php(100): view('sys/BidEvaluation/PCMeeting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->PCMeeting()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-07 18:48:51 --> mysqli_sql_exception: Column 'UserId' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-07 18:48:51 --> Column 'UserId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :EmpId[]:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-07 18:51:13 --> mysqli_sql_exception: Column 'UserId' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-07 18:51:13 --> Column 'UserId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'50\', \'Purchasing Fans for Special Task Force Camp\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :EmpId[]:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-07 18:52:33 --> mysqli_sql_exception: Column 'UserId' cannot be null in C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\IPMS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\IPMS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\IPMS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\IPMS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IPMS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IPMS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\IPMS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\IPMS\app\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+#10 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+#11 C:\xampp\htdocs\IPMS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IPMS\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-07 18:52:33 --> Column 'UserId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'51\', \'Brand New Wheel Alignment Machine for Transport Division\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'51\', \'Brand New Wheel Alignment Machine for Transport Division\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (\'51\', \'Brand New Wheel Alignment Machine for Transport Division\', \'RPC\', \'Special Task Force Sri Lanka Police\', \'08\', \'2024-02-05T02:18\', \'TEC\', \'3\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Committee` (`PNumber`, `Description`, `NPC`, `ProEntity`, `MNumber`, `MDate`, `Purpose`, `EmpId[]`, `UserId`) VALUES (:PNumber:, :Description:, :NPC:, :ProEntity:, :MNumber:, :MDate:, :Purpose:, :EmpId[]:, :UserId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\BidEvaluation.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BidEvaluation->EvaluationCommittee()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BidEvaluation))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

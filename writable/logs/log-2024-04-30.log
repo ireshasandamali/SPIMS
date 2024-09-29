@@ -1,0 +1,14 @@
+CRITICAL - 2024-04-30 16:30:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Awarding.php on line 142.
+ 1 APPPATH\Controllers\Awarding.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Awarding.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-30 16:30:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Awarding.php on line 142.
+ 1 APPPATH\Controllers\Awarding.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\IPMS\\app\\Controllers\\Awarding.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Awarding->createLetterofIntent()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Awarding))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
